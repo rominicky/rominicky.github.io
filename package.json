@@ -1,8 +1,15 @@
+"homepage": "https://rominicky.github.io",
+"scripts": {
+  "develop": "gatsby develop",
+  "build": "gatsby build",
+  "deploy": "gatsby build && gh-pages -d public"
+}
+
 {
   "name": "v4",
   "description": "Personal Website V4",
   "version": "1.0.0",
-  "author": "Brittany Chiang <brittany.chiang@gmail.com>",
+  "author": " <brittany.chiang@gmail.com>",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/bchiang7/v4.git"
