@@ -59,15 +59,16 @@ const Hero = () => {
     return () => clearTimeout(timeout);
   }, []);
 
-  const one = <h1>Hi, my name is</h1>;
-  const two = <h2 className="big-heading">Brittany Chiang.</h2>;
-  const three = <h3 className="big-heading">I build things for the web.</h3>;
+  const one = <h1>Hola, soy</h1>;
+  const two = <h2 className="big-heading">Romina De León</h2>;
+  const three = <h3 className="big-heading">...</h3>;
   const four = (
     <>
       <p>
-        I’m a software engineer specializing in building (and occasionally designing) exceptional
-        digital experiences. Currently, I’m focused on building accessible, human-centered products
-        at{' '}
+        I’m a historian and appasionate for technology based in Buenos Aires, Argentina. I love
+        building things that live on the internet. My interests are in front-end development, design
+        systems, and user experience. I’m passionate about creating beautiful and functional web
+        applications. I’m currently working at{' '}
         <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
           Upstatement
         </a>
