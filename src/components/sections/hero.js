@@ -69,19 +69,15 @@ const Hero = () => {
         building things that live on the internet. My interests are in front-end development, design
         systems, and user experience. I’m passionate about creating beautiful and functional web
         applications. I’m currently working at{' '}
-        <a href="https://upstatement.com/" target="_blank" rel="noreferrer">
-          Upstatement
+        <a href="https://" target="_blank" rel="noreferrer">
+          Próximos proyectos
         </a>
         .
       </p>
     </>
   );
   const five = (
-    <a
-      className="email-link"
-      href="https://www.newline.co/courses/build-a-spotify-connected-app"
-      target="_blank"
-      rel="noreferrer">
+    <a className="email-link" href="https://" target="_blank" rel="noreferrer">
       Check out my course!
     </a>
   );
