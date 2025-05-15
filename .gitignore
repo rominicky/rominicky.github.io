@@ -8,7 +8,8 @@ package-lock.json
 /public
 .DS_Store
 _site/
-
+.cache/
+.env
 
 .vscode/
 _site/
