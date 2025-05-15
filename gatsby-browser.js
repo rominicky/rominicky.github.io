@@ -4,6 +4,7 @@
  * See: https://www.gatsbyjs.org/docs/browser-apis/
  */
 
-export const onRenderBody = ({ setHtmlAttributes }) => {
+// gatsby-ssr.js
+exports.onRenderBody = ({ setHtmlAttributes }) => {
   setHtmlAttributes({ lang: 'es' });
 };

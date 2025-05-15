@@ -1,19 +1,13 @@
-"homepage": "https://rominicky.github.io",
-"scripts": {
-  "develop": "gatsby develop",
-  "build": "gatsby build",
-  "deploy": "gatsby build && gh-pages -d public"
-}
-
 {
   "name": "v4",
-  "description": "Personal Website V4",
+  "description": "A personal website built with Gatsby",
   "version": "1.0.0",
-  "author": " <brittany.chiang@gmail.com>",
+  "author": "Romina De León <romideleon@gmail.com>",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bchiang7/v4.git"
+    "url": "https://github.com/rominicky/rominicky.github.io"
   },
+  "homepage": "https://rominicky.github.io",
   "keywords": [
     "gatsby"
   ],
@@ -67,9 +61,6 @@
     "scrollreveal": "^4.0.5",
     "styled-components": "^5.3.0"
   },
-  "resolutions": {
-    "graphql": "^16.6.0"
-  },
   "devDependencies": {
     "@babel/core": "^7.14.0",
     "@babel/eslint-parser": "^7.13.14",
@@ -85,10 +76,5 @@
     "husky": "^6.0.0",
     "lint-staged": "^10.1.2",
     "prettier": "^2.2.1"
-  },
-  "main": "gatsby-browser.js",
-  "bugs": {
-    "url": "https://github.com/bchiang7/v4/issues"
-  },
-  "homepage": "https://github.com/bchiang7/v4#readme"
+  }
 }

@@ -1,6 +1,9 @@
 const config = require('./src/config');
 
 module.exports = {
+  flags: {
+    DEV_SSR: false,
+  },
   siteMetadata: {
     title: 'Romina De León',
     description: '.',
@@ -73,6 +76,7 @@ module.exports = {
             // https://www.gatsbyjs.org/packages/gatsby-remark-images
             resolve: 'gatsby-remark-images',
             options: {
+              placeholder: 'blurred',
               maxWidth: 700,
               linkImagesToOriginal: true,
               quality: 90,
