@@ -8,7 +8,7 @@ module.exports = {
   siteMetadata: {
     title: 'Romina De León',
     description: '.',
-    siteUrl: 'https://rominicky.github.io/', // No trailing slash allowed!
+    siteUrl: 'https://rominicky.github.io', // No trailing slash allowed!
     image: '/', // Path to your image you placed in the 'static' folder
     twitterUsername: '@rominicky.dl',
   },
