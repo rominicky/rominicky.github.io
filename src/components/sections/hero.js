@@ -88,7 +88,7 @@ const Hero = () => {
     </>
   );
   const five = (
-    <a className="email-link" href="/cv" target="_blank" rel="noreferrer">
+    <a className="email-link" href="https://" target="_blank" rel="noreferrer">
       Mi CV!
     </a>
   );
