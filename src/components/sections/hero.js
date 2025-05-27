@@ -61,19 +61,15 @@ const Hero = () => {
 
   const one = <h1>Hola, soy</h1>;
   const two = <h2 className="big-heading">Romina De León</h2>;
-  const three = (
-    <h3 className="big-heading">
-      formada en Historia, desarrolladora y entusiasta de la tecnología.
-    </h3>
-  );
+  const three = <h3 className="big-heading">...</h3>;
   const four = (
     <>
       <p>
-        Como profesional adjunto de CONICET y docente universitaria con base en Buenos Aires,
-        Argentina. Trabajo en la intersección entre las humanidades digitales, el desarrollo web y
-        la publicación académica abierta. Me apasiona crear plataformas interactivas que hagan
-        accesibles los resultados de investigación y exploren nuevas formas de narrar con datos
-        históricos.
+        Formada en Historia, desarrolladora y entusiasta de la tecnología. Profesional adjunto de
+        CONICET y docente universitaria con base en Buenos Aires, Argentina. Trabajo en la
+        intersección entre las humanidades digitales, el desarrollo web y la publicación académica
+        abierta. Me apasiona crear plataformas interactivas que hagan accesibles los resultados de
+        investigación y exploren nuevas formas de narrar con datos históricos.
       </p>
       <p>
         Me especializo en desarrollo front-end, visualización de redes y datos espaciales, edición
@@ -92,12 +88,8 @@ const Hero = () => {
     </>
   );
   const five = (
-    <a
-      className="email-link"
-      href="https://rominicky.github.io/materiales/materiales.html"
-      target="_blank"
-      rel="noreferrer">
-      Mis cursos!
+    <a className="email-link" href="/cv" target="_blank" rel="noreferrer">
+      Mi CV!
     </a>
   );
 
