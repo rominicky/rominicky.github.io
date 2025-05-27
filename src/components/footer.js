@@ -2,7 +2,7 @@ import React from 'react';
 import styled from 'styled-components';
 import { Icon } from '@components/icons';
 import { socialMedia } from '@config';
-
+/* eliminé los useState useEffect y githubInfo */
 const StyledFooter = styled.footer`
   ${({ theme }) => theme.mixins.flexCenter};
   flex-direction: column;
@@ -71,18 +71,18 @@ const Footer = () => (
     <StyledSocialLinks>
       <ul>
         {socialMedia &&
-            socialMedia.map(({ name, url }, i) => (
-              <li key={i}>
-                <a href={url} aria-label={name}>
-                  <Icon name={name} />
-                </a>
-              </li>
-            ))}
+          socialMedia.map(({ name, url }, i) => (
+            <li key={i}>
+              <a href={url} aria-label={name}>
+                <Icon name={name} />
+              </a>
+            </li>
+          ))}
       </ul>
     </StyledSocialLinks>
 
     <StyledCredit tabindex="-1">
-        Sitio personal de Romina De León construido con la plantilla diseñada por{' '}
+      Sitio personal de Romina De León construido con la plantilla diseñada por{' '}
       <a href="https://github.com/bchiang7/v4">
         <div>Brittany Chiang</div>
       </a>

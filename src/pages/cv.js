@@ -1,7 +1,7 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 import styled from 'styled-components';
-import Layout from 'src/components/Layout';
+import Layout from '.../components/layout';
 
 const StyledCVSection = styled.main`
   max-width: 900px;
