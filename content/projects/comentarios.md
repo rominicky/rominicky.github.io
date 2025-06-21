@@ -1,9 +1,8 @@
 ---
 date: '1'
-title: 'Halcyon Theme'
-cover: './halcyon.png'
-github: 'https://github.com/bchiang7/halcyon-site'
-external: 'https://halcyon-theme.netlify.com/'
+title: 'Comentarios'
+github: 'https://github.com/rominicky/comentarios'
+external: 'https://rominicky.github.io/comentarios'
 tech:
   - VS Code
   - Sublime Text

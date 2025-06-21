@@ -1,8 +1,8 @@
 ---
 date: '3'
-title: 'Build a Spotify Connected App'
+title: 'Comentarios3'
 cover: './course-card.png'
-external: 'https://www.newline.co/courses/build-a-spotify-connected-app'
+external: 'https://rominicky.github.io/comentarios'
 cta: 'https://www.newline.co/courses/build-a-spotify-connected-app'
 tech:
   - React
