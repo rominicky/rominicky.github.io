@@ -41,6 +41,13 @@ module.exports = {
       },
     },
     {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `featured`,
+        path: `${__dirname}/content/featured/`,
+      },
+    },
+    {
       resolve: 'gatsby-source-filesystem',
       options: {
         name: 'content',
@@ -77,10 +84,22 @@ module.exports = {
             // https://www.gatsbyjs.org/packages/gatsby-remark-images
             resolve: 'gatsby-remark-images',
             options: {
-              placeholder: 'blurred',
               maxWidth: 700,
               linkImagesToOriginal: true,
               quality: 90,
+            },
+          },
+
+          {
+            resolve: `gatsby-plugin-sharp`,
+            options: {
+              defaults: {
+                formats: [`auto`, `webp`, `avif`],
+                placeholder: `blurred`,
+                quality: 90,
+                breakpoints: [750, 1080, 1366, 1920],
+                backgroundColor: `transparent`,
+              },
             },
           },
           {
@@ -159,4 +178,13 @@ module.exports = {
       },
     },
   ],
+};
+
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+  createTypes(`
+    type MarkdownRemarkFrontmatter {
+      cover: File @fileByRelativePath
+    }
+  `);
 };

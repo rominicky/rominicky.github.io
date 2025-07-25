@@ -30,6 +30,11 @@ module.exports = {
       url: '/#jobs',
     },
     {
+      name: 'Artículos',
+      description: 'Publicaciones y artículos',
+      url: '/#post',
+    },
+    {
       name: 'Enseñanza',
       description: 'Repositorio con recursos para enseñanza.',
       url: '/materiales/materiales.html',

@@ -5,6 +5,8 @@ import PropTypes from 'prop-types';
 import { Helmet } from 'react-helmet';
 import styled from 'styled-components';
 import { Layout } from '@components';
+/* import { GatsbyImage, getImage } from 'gatsby-plugin-image';  // Importing GatsbyImage for optimized images
+ */
 
 const StyledPostContainer = styled.main`
   max-width: 1000px;
@@ -99,7 +101,7 @@ PostTemplate.propTypes = {
 };
 
 export const pageQuery = graphql`
-  query($path: String!) {
+  query ($path: String!) {
     markdownRemark(frontmatter: { slug: { eq: $path } }) {
       html
       frontmatter {

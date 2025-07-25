@@ -5,6 +5,7 @@
  */
 
 // gatsby-ssr.js
-exports.onRenderBody = ({ setHtmlAttributes }) => {
+/* exports.onRenderBody = ({ setHtmlAttributes }) => {
   setHtmlAttributes({ lang: 'es' });
 };
+ */
