@@ -66,10 +66,7 @@ const Hero = () => {
     <>
       <p>
         Formada en Historia, desarrolladora y entusiasta de la tecnología. Profesional adjunto de
-        CONICET y docente universitaria con base en Buenos Aires, Argentina. Trabajo en la
-        intersección entre las humanidades digitales, el desarrollo web y la publicación académica
-        abierta. Me apasiona crear plataformas interactivas que hagan accesibles los resultados de
-        investigación y exploren nuevas formas de narrar con datos históricos.
+        CONICET y docente universitaria, de Buenos Aires, Argentina.
       </p>
       <p>
         Me especializo en desarrollo front-end, visualización de redes y datos espaciales, edición

@@ -145,9 +145,13 @@ const About = () => {
           <div>
             <p>
               Hola! Soy Romina, profesional adjunto de la carrera CPA de CONICET y docente
-              universitaria especializada en Humanidades Digitales. Mi interés por el desarrollo web
-              y el análisis de datos surgió junto con mis proyectos académicos, donde comencé a
-              construir herramientas para explorar, visualizar y publicar fuentes históricas.
+              universitaria especializada en Humanidades Digitales. Trabajo en la intersección entre
+              las humanidades digitales, el desarrollo web y la publicación académica abierta. Me
+              apasiona crear plataformas interactivas que hagan accesibles los resultados de
+              investigación y exploren nuevas formas de narrar con datos históricos. Mi interés por
+              el desarrollo web y el análisis de datos surgió junto con mis proyectos académicos,
+              donde comencé a construir herramientas para explorar, visualizar y publicar fuentes
+              históricas.
             </p>
             <p>
               En los últimos años desarrollé diversos sitios de acceso abierto y visualizaciones
