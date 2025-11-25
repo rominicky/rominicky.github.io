@@ -1,4 +1,4 @@
-## Voces veladas.
+## Voces veladas
 
 ### Recuperación de la agencia femenina a través del archivo colonial
 
@@ -6,11 +6,13 @@
 
 ##### [Romina De León](romideleon@gmail.com)
 
-## <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Conicet_Logo_con_letras.png" width="10%">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Conicet_Logo_con_letras.png" width="25%">
+
+---
 
 ## 1. Introducción
 
-El objetivo es reexaminar el papel de las mujeres como **agentes sociales, políticos y económicos** en el espacio rioplatense colonial.
+El objetivo es reexaminar o profundizar el papel de las mujeres como **agentes sociales, políticos y económicos** en el espacio peruano colonial. En particular, de mujeres que llevaron adelante sus encomiendas.
 
 ---
 
