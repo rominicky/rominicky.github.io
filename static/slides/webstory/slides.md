@@ -14,9 +14,9 @@
 
 El objetivo es reexaminar y profundizar el papel de las mujeres como **agentes sociales, políticos y económicos** en el espacio peruano colonial. En particular, de mujeres que llevaron adelante sus encomiendas.
 
-A. Mujeres españolas con un criollo peruano, 1714. Amédée Frézier | B. Mujeres bebiendo "té paraguayo" con mate o taza de calabaza
+> A. Mujeres españolas con un criollo peruano | B. Mujeres bebiendo "té paraguayo" con mate o taza de calabaza. (Amédée Frézier, 1714)
 
-<img width="25%" src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Planche_XXIX.jpg"> | <img width="25%" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Planche_XXXVI.jpg">
+<img width="50%" src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Planche_XXIX.jpg"> <img width="50%" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Planche_XXXVI.jpg">
 
 ---
 
