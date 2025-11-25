@@ -6,7 +6,7 @@
 
 ##### [Romina De León](romideleon@gmail.com)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Conicet_Logo_con_letras.png" width="20%">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Conicet_Logo_con_letras.png" width="18%">
 
 ---
 
