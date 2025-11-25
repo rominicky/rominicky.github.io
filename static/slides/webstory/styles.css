@@ -1,0 +1,217 @@
+/* ----------------------------------------------
+   Tipografías generales
+------------------------------------------------*/
+body,
+.reveal {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  background: #1a0f2f; /* mismo tono oscuro de tu sitio */
+  color: #e6e6ef;
+}
+
+/* Títulos */
+.reveal h1,
+.reveal h2,
+.reveal h3 {
+  font-weight: 700;
+  letter-spacing: -0.5px;
+  color: #f5e3ff; /* violeta claro */
+  text-shadow: 0 0 10px rgba(210, 150, 255, 0.4);
+}
+
+/* Subtítulos */
+.reveal h4,
+.reveal h5 {
+  font-weight: 500;
+  color: #caa9ff;
+}
+
+/* Texto general */
+.reveal p,
+.reveal li {
+  font-size: 1.1rem;
+  color: #d9d9e6;
+  line-height: 1.6;
+}
+
+/* Enlaces */
+.reveal a {
+  color: #d66bff;
+  text-decoration: none;
+  border-bottom: 1px dashed rgba(214, 107, 255, 0.4);
+  transition: all 0.25s ease;
+}
+
+.reveal a:hover {
+  color: #ff9aff;
+  text-shadow: 0 0 8px rgba(255, 154, 255, 0.5);
+  border-bottom-color: rgba(255, 154, 255, 0.6);
+}
+
+/* ----------------------------------------------
+   Diapositivas
+------------------------------------------------*/
+
+/* Más aire y tamaño tipo storytelling */
+.reveal .slides section {
+  /* padding: 40px 60px; */
+  backdrop-filter: blur(6px);
+  margin-left: auto !important;
+  margin-right: auto !important;
+  /* max-width: 1000px; */
+}
+
+/* Secciones con imagen de fondo */
+.section-bg {
+  background-size: cover !important;
+  background-position: center;
+  color: white;
+}
+
+/* Cajas / panels */
+.panel {
+  background: rgba(147, 123, 244, 0.05);
+  border: 1px solid rgba(214, 107, 255, 0.2);
+  border-radius: 12px;
+  padding: 24px 32px;
+  backdrop-filter: blur(8px);
+}
+
+/* Código */
+.reveal code {
+  font-family: 'SF Mono', 'Fira Code', monospace;
+  font-size: 0.9rem;
+  background: rgba(255, 255, 255, 0.08);
+  padding: 4px 6px;
+  border-radius: 4px;
+  border: 1px solid rgba(214, 107, 255, 0.2);
+}
+
+/* Bloques de código */
+.reveal pre code {
+  background: rgba(20, 10, 30, 0.7);
+  padding: 16px;
+  border-radius: 10px;
+  border: 1px solid rgba(214, 107, 255, 0.25);
+  color: #f9e8ff;
+}
+
+/* ----------------------------------------------
+   Navegación (flechas Reveal)
+------------------------------------------------*/
+.reveal .controls button {
+  color: #d66bff !important;
+}
+
+.reveal .controls button:hover {
+  color: #ff9aff !important;
+  text-shadow: 0 0 10px rgba(255, 154, 255, 0.6);
+}
+
+/* ----------------------------------------------
+   Indicador de número de slide
+------------------------------------------------*/
+.reveal .slide-number {
+  background: rgba(214, 107, 255, 0.2);
+  color: #f2d7ff;
+}
+
+/* ----------------------------------------------
+   Transiciones suaves
+------------------------------------------------*/
+.reveal .slides section {
+  transition: opacity 0.6s ease, transform 0.6s ease;
+  display: flex !important;
+  flex-direction: column;
+  justify-content: center !important;
+  align-items: center !important;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+}
+.reveal .slides section.present {
+  opacity: 1;
+  transform: scale(1);
+}
+
+/* Tooltip base */
+.tooltip {
+  position: relative;
+  cursor: help;
+  border-bottom: 1px dotted rgba(255, 255, 255, 0.2);
+}
+
+/* El texto del tooltip */
+.tooltip .tooltip-text {
+  visibility: hidden;
+  opacity: 0;
+  width: 260px;
+  background: rgba(20, 10, 30, 0.95);
+  color: #f4e7ff;
+  text-align: left;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(200, 120, 255, 0.15);
+  position: absolute;
+  z-index: 50;
+  bottom: calc(100% + 10px);
+  left: 50%;
+  transform: translateX(-50%) translateY(6px);
+  transition: opacity 0.18s ease, transform 0.18s ease;
+  box-shadow: 0 6px 30px rgba(0, 0, 0, 0.6);
+  font-size: 0.95rem;
+  line-height: 1.4;
+}
+
+/* Flecha */
+.tooltip .tooltip-text::after {
+  content: '';
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  border-width: 6px;
+  border-style: solid;
+  border-color: rgba(20, 10, 30, 0.95) transparent transparent transparent;
+}
+
+/* Mostrar al hover o focus (accesible con teclado) */
+.tooltip:hover .tooltip-text,
+.tooltip:focus-within .tooltip-text {
+  visibility: visible;
+  opacity: 1;
+  transform: translateX(-50%) translateY(0);
+}
+
+/* Responsive: en pantallas pequeñas mostramos abajo */
+@media (max-width: 600px) {
+  .tooltip .tooltip-text {
+    bottom: auto;
+    top: calc(100% + 10px);
+    transform: translateX(-50%) translateY(6px);
+  }
+}
+
+#floating-back {
+  position: fixed;
+  bottom: 24px;
+  left: 24px;
+  z-index: 999;
+}
+
+#floating-back a {
+  padding: 10px 20px;
+  background: rgba(20, 10, 30, 0.6);
+  border: 1px solid rgba(214, 107, 255, 0.4);
+  border-radius: 10px;
+  color: #f5e3ff;
+  text-decoration: none;
+  font-size: 0.95rem;
+  backdrop-filter: blur(8px);
+  transition: all 0.3s ease;
+}
+
+#floating-back a:hover {
+  background: rgba(214, 107, 255, 0.25);
+  border-color: rgba(255, 154, 255, 0.7);
+  text-shadow: 0 0 8px rgba(255, 154, 255, 0.6);
+}
