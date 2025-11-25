@@ -6,13 +6,17 @@
 
 ##### [Romina De León](romideleon@gmail.com)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Conicet_Logo_con_letras.png" width="25%">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Conicet_Logo_con_letras.png" width="20%">
 
 ---
 
 ## 1. Introducción
 
-El objetivo es reexaminar o profundizar el papel de las mujeres como **agentes sociales, políticos y económicos** en el espacio peruano colonial. En particular, de mujeres que llevaron adelante sus encomiendas.
+El objetivo es reexaminar y profundizar el papel de las mujeres como **agentes sociales, políticos y económicos** en el espacio peruano colonial. En particular, de mujeres que llevaron adelante sus encomiendas.
+
+A. Mujeres españolas con un criollo peruano, 1714. Amédée Frézier | B. Mujeres bebiendo "té paraguayo" con mate o taza de calabaza
+
+<img width="25%" src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Planche_XXIX.jpg"> | <img width="25%" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Planche_XXXVI.jpg">
 
 ---
 
@@ -20,11 +24,8 @@ El objetivo es reexaminar o profundizar el papel de las mujeres como **agentes s
 
 ### Voces veladas
 
-La noción de <span class="tooltip">agencia femenina
-<span class="tooltip-text">Acciones y estrategias con que las mujeres negocian poder en lo económico, social y jurídico en el mundo colonial.</span>
-</span> aparece con frecuencia en...
-
-Las mujeres aparecen como “marginales” en la narrativa colonial, pero la documentación muestra:
+La <span class="tooltip">agencia femenina
+<span class="tooltip-text">Entendida como las acciones y estrategias con que las mujeres, como individuo o colectivo, puedieron negociar en y con el poder en lo económico, social y jurídico en el mundo colonial.</span></span> aparece en en estos sujetos históricos, que fueron hasta hace pocas décadas consideradas “marginales” por la historiografía así como en la narrativa colonial. Sin embargo, la documentación muestra:
 
 - gestión de bienes
 - litigios judiciales
