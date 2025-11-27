@@ -12,78 +12,110 @@
 
 ## 1. Introducción
 
-El objetivo es reexaminar y profundizar el papel de las mujeres como **agentes sociales, políticos y económicos** en el espacio peruano colonial. En particular, de mujeres que llevaron adelante sus encomiendas.
+Las mujeres como sujetos históricos, han sido invisibilizadas por la historiografía tradicional, así como también por sus contemporáneos. Sin embargo, este punto ha sido discutido, por ello a partir de este trabajo, trataré de reexaminar y profundizar el papel de las mujeres como **agentes sociales, políticos y económicos** en el espacio peruano colonial. En particular, de mujeres que llevaron adelante sus encomiendas.
 
-> A. Mujeres españolas con un criollo peruano | B. Mujeres bebiendo "té paraguayo" con mate o taza de calabaza. (Amédée Frézier, 1714)
+<div style="display: flex; justify-content: center; gap: 30px; font-size: 0.9rem; margin-top: 10px;">
+  <div style="display: flex; flex-direction: column; align-items: center; width: 40%; text-align: center;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Planche_XXIX.jpg" style="width: 55%;">
+    <em>Mujeres españolas con un criollo peruano</em>
+  </div>
 
-<img width="50%" src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Planche_XXIX.jpg"> <img width="50%" src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Planche_XXXVI.jpg">
+  <div style="display: flex; flex-direction: column; align-items: center; width: 40%; text-align: center;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Planche_XXXVI.jpg" style="width: 55%;">
+    <em>Mujeres bebiendo "té paraguayo" con mate o taza de calabaza (Amédée Frézier, 1714)</em>
+  </div>
+</div>
 
 ---
 
 ## 2. Problema e hipótesis
 
-### Voces veladas
-
 La <span class="tooltip">agencia femenina
-<span class="tooltip-text">Entendida como las acciones y estrategias con que las mujeres, como individuo o colectivo, puedieron negociar en y con el poder en lo económico, social y jurídico en el mundo colonial.</span></span> aparece en en estos sujetos históricos, que fueron hasta hace pocas décadas consideradas “marginales” por la historiografía así como en la narrativa colonial. Sin embargo, la documentación muestra:
+<span class="tooltip-text">Entendida como las acciones y estrategias con que las mujeres, como individuo o colectivo, puedieron negociar en y con el poder en lo económico, social y jurídico en el mundo colonial.</span></span> aparece en en estas voces “marginales” en distintos tipos de documentación:
 
+- información de oficios y partes
 - gestión de bienes
 - litigios judiciales
 - acción política cotidiana
 - redes de protección y sociabilidad
 - movilidad territorial
 
+--
+
+#### Hipótesis
+
+Estas mujeres desde su posición pudieron ser agentes de poder político, económico, y social, por ende buscaré comprobarlo a través de las diferentes fuentes.
+
+--
+
+#### Mis voces veladas
+
+#### María Ramírez
+
+1567, [Archivo] Archivo General de Indias. [Sección] Gobierno. [1ª División] Audiencia de Lima. [Fracción de Serie-Unidad de Instalación] Informaciones de oficio y parte.
+
+![](/static/slides/webstory/images/maria_ramirez.JPG)
+
+--
+
+#### María Martel
+
+Encomendera de los indios Laraos y Mancos. Constan también su padre Alonso Pérez Martel, su primer marido Francisco de Herrera, su segundo marido Hernando Martel de Mosquera y su hermano Bernardino Martel. Información contenida: 1574-1575, Archivo General de Indias, [Sección] Gobierno, [1ª División] Audiencia de Lima. [Fracción de Serie-Unidad de Instalación] Informaciones de oficio y parte.
+
+<img src="/static/slides/webstory/images/maria_martel.jpg">
+
+--
+
+#### Mariana de Ribera
+
+1601 vecino de Lima, con poder de su esposo, encomendera en el pueblo de Magdalena y su fiador, se obligan pagar el cacique e indios del pueblo de Magdalena, cantidad de pesos, por especies varias que los indios les están obligados entregar tanto a ella como a Juan de Isásaga, por ser encomenderos de dicho pueblo.
+
+--
+
+#### Jordana Mejía
+
 ---
 
 ## 3. Fuentes del archivo colonial
 
-- Probanzas
-- Testamentos
+- Probanzas de bienes y servicios
+- Testamentos, bienes de difuntos
 - Expedientes judiciales
-- Censos
-- Cartas y peticiones
+- Censos (Aún no encontré y tampoco estoy segura)
+- Cartas y peticiones (Igual que el anterios)
 
 > Insertar aquí imágenes (PNG/JPG) de fragmentos documentales.
 
 ---
 
-## 4. Caso 1: Paula Piraldo
+## 4. Mis problemas a resolver
 
-**Rol:** administradora de bienes — testamentos, litigios, alianzas.  
-**Lugar:** Ciudad de Buenos Aires, siglo XVII.
+**Lectura de fuentes**
+
+**Recorte temporal, regional?**
+
+**Evaluar herramientas a utilizar para mi análisis**
 
 Imagen del documento → `img/piraldo.png`
 
 --
 
-#### Extracto
+#### Lecturas de fuentes
 
-En el archivo notarás la <span class="tooltip">agencia femenina
-<span class="tooltip-text">Acciones y estrategias con que las mujeres negocian poder en lo económico, social y jurídico en el mundo colonial.</span>
-</span> en el testamento de María Martel.
+Scholarship de [Spanish Paleography + Digital Humanities Institute](https://sites.utexas.edu/llilasbensonds/funding/spdh-institute/)
 
-> _“…hago saber que por mi voluntad…”_
+<div style="display: flex; justify-content: center; gap: 30px; font-size: 0.9rem; margin-top: 10px;">
+    <img src="https://sites.utexas.edu/llilasbensonds/files/2019/03/lbds_header.png" style="width: 55%;"></div>
+
+--
+
+#### **Recorte temporal, regional?**
 
 --
 
 #### Red de vínculos
 
 _(Insertar imagen grafo: personajes asociados)_
-
----
-
-## 5. Caso 2: María Martel, encomendera
-
-- heredera y administradora
-- conflictos jurisdiccionales
-- vínculos eclesiásticos y seculares
-
----
-
-## 6. Caso 3: Petronila de Castro (Tucumán)
-
-- movilidad y litigios
-- agencia económica en áreas de frontera
 
 ---
 
