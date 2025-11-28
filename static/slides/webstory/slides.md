@@ -2,7 +2,7 @@
 
 ### Recuperación de la agencia femenina a través del archivo colonial
 
-#### Virreinato del Perú, s. XVII-XVIII
+#### Virreinato del Perú, s. XVI-XVII
 
 ##### [Romina De León](romideleon@gmail.com)
 
@@ -12,33 +12,32 @@
 
 ## 1. Introducción
 
-Las mujeres como sujetos históricos, han sido invisibilizadas por la historiografía tradicional, así como también por sus contemporáneos. Sin embargo, este punto ha sido discutido, por ello a partir de este trabajo, trataré de reexaminar y profundizar el papel de las mujeres como **agentes sociales, políticos y económicos** en el espacio peruano colonial. En particular, de mujeres que llevaron adelante sus encomiendas.
+Las mujeres como sujetos históricos, han sido invisibilizadas por la historiografía tradicional, así como también por sus contemporáneos. Sin embargo, este punto ha sido discutido, por ello a partir de este trabajo, trataré de reexaminar y profundizar el papel de las mujeres como **agentes sociales, políticos y económicos** en el espacio colonial. En particular, de mujeres que llevaron adelante sus encomiendas.
 
 <div style="display: flex; justify-content: center; gap: 30px; font-size: 0.9rem; margin-top: 10px;">
   <div style="display: flex; flex-direction: column; align-items: center; width: 40%; text-align: center;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Planche_XXIX.jpg" style="width: 55%;">
     <em>Mujeres españolas con un criollo peruano</em>
   </div>
-
   <div style="display: flex; flex-direction: column; align-items: center; width: 40%; text-align: center;">
     <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Planche_XXXVI.jpg" style="width: 55%;">
-    <em>Mujeres bebiendo "té paraguayo" con mate o taza de calabaza (Amédée Frézier, 1714)</em>
+    <em>Mujeres bebiendo "té paraguayo" con mate o taza de calabaza (Amédée-François Frézier, 1714)</em>
   </div>
 </div>
 
 ---
 
-## 2. Problema e hipótesis
+## 2. Problema, fuentes e hipótesis
 
 La <span class="tooltip">agencia femenina
 <span class="tooltip-text">Entendida como las acciones y estrategias con que las mujeres, como individuo o colectivo, puedieron negociar en y con el poder en lo económico, social y jurídico en el mundo colonial.</span></span> aparece en en estas voces “marginales” en distintos tipos de documentación:
 
-- información de oficios y partes
-- gestión de bienes
-- litigios judiciales
-- acción política cotidiana
-- redes de protección y sociabilidad
-- movilidad territorial
+- información de oficios y partes (Archivos históricos)
+- gestión de bienes (Archivos históricos)
+- litigios judiciales (Archivos históricos)
+- acción política cotidiana (Bibliografía)
+- redes de protección y sociabilidad (Bibliografía)
+- movilidad territorial (Bibliografía)
 
 --
 
@@ -48,13 +47,77 @@ Estas mujeres desde su posición pudieron ser agentes de poder político, econó
 
 --
 
-#### Mis voces veladas
+##### Fuentes del archivo colonial
+
+- Archivo General de las Indias (Probanzas de bienes y servicios; Testamentos, bienes de difuntos; Expedientes judiciales)
+- Archivo General de la Nación del Perú - Archivo Histórico Digital del Archivo General de la Nación
+- Censos (Aún no encontré y tampoco estoy segura si será relevante)
+- Cartas y peticiones (Igual que el anterior)
+
+##### Fragmentos del archivo colonial
+
+<div class="gallery">
+  <a href="/slides/webstory/images/ramirez.jpg" data-lightbox="docs" data-title="Informaciones de oficio y parte: María Ramírez, 1567">
+    <img src="/slides/webstory/images/ramirez.jpg" width="200">
+  </a>
+
+  <a href="/slides/webstory/images/doc3.jpg" data-lightbox="docs" data-title="Autos entre partes de Lima, Jordana Mejía, 1568">
+    <img src="/slides/webstory/images/jordana.jpg" width="200">
+  </a>
+
+  <a href="/slides/webstory/images/maria_martel.jpg" data-lightbox="docs" data-title="Informaciones de oficio y parte: María Martel, 1574-1575">
+    <img src="/slides/webstory/images/maria_martel.jpg" width="200">
+  </a>
+
+  <a href="/slides/webstory/images/de_ribera.jpg" data-lightbox="docs" data-title="Protocolos notariales - Obligación, Mariana de Ribera, 1599">
+    <img src="/slides/webstory/images/de_ribera.jpg" width="200">
+  </a>
+</div>
+
+--
+
+#### Mis problemas a resolver
+
+**Lectura de fuentes**
+
+**Recorte temporal, regional?**
+
+**Evaluar herramientas a utilizar para mi análisis**
+
+--
+
+#### Lecturas de fuentes
+
+Scholarship de [Spanish Paleography + Digital Humanities Institute](https://sites.utexas.edu/llilasbensonds/funding/spdh-institute/)
+
+<div style="display: flex; justify-content: center; gap: 30px; font-size: 0.9rem; margin-top: 10px;">
+    <img src="https://sites.utexas.edu/llilasbensonds/files/2019/03/lbds_header.png" style="width: 65%;"></div>
+
+--
+
+#### **Recorte temporal, regional?**
+
+- Virreinato del Perú
+- Siglos XVI-XVII
+
+--
+
+#### Red de vínculos, personajes, utilización de herramientas digitales
+
+<iframe 
+  src="https://hdlab.space/viaje-al-rio-de-la-plata/sigma-viz/index.html#%C3%81lvar%20N%C3%BA%C3%B1ez%20Cabeza%20de%20Vaca"
+  width="100%"
+  height="425"
+  style="border: none; border-radius: 6px; margin-top: 20px;">
+</iframe>
+
+---
+
+## 3. Mis voces veladas
 
 #### María Ramírez
 
-1567, [Archivo] Archivo General de Indias. [Sección] Gobierno. [1ª División] Audiencia de Lima. [Fracción de Serie-Unidad de Instalación] Informaciones de oficio y parte.
-
-![](/static/slides/webstory/images/maria_ramirez.JPG)
+1567, Archivo General de Indias. Sección: Gobierno. [1ª División] Audiencia de Lima. [Fracción de Serie-Unidad de Instalación] Informaciones de oficio y parte. También consta su marido, <span class="tooltip">Juan Sierra de Leguizamo<span class="tooltip-text">Podría tratarse del hijo de Mancio Sierra y de Doña Beatriz Coya</span></span>
 
 --
 
@@ -68,90 +131,23 @@ Encomendera de los indios Laraos y Mancos. Constan también su padre Alonso Pér
 
 #### Mariana de Ribera
 
-1601 vecino de Lima, con poder de su esposo, encomendera en el pueblo de Magdalena y su fiador, se obligan pagar el cacique e indios del pueblo de Magdalena, cantidad de pesos, por especies varias que los indios les están obligados entregar tanto a ella como a Juan de Isásaga, por ser encomenderos de dicho pueblo.
+1601, vecina de Lima, con poder de su esposo, encomendera en el pueblo de Magdalena y su fiador, se obligan pagar el cacique e indios del pueblo de Magdalena, cantidad de pesos, por especies varias que los indios les están obligados entregar tanto a ella como a Juan de Isásaga, por ser encomenderos de dicho pueblo.
 
 --
 
 #### Jordana Mejía
 
----
-
-## 3. Fuentes del archivo colonial
-
-- Probanzas de bienes y servicios
-- Testamentos, bienes de difuntos
-- Expedientes judiciales
-- Censos (Aún no encontré y tampoco estoy segura)
-- Cartas y peticiones (Igual que el anterios)
-
-> Insertar aquí imágenes (PNG/JPG) de fragmentos documentales.
-
----
-
-## 4. Mis problemas a resolver
-
-**Lectura de fuentes**
-
-**Recorte temporal, regional?**
-
-**Evaluar herramientas a utilizar para mi análisis**
-
-Imagen del documento → `img/piraldo.png`
-
---
-
-#### Lecturas de fuentes
-
-Scholarship de [Spanish Paleography + Digital Humanities Institute](https://sites.utexas.edu/llilasbensonds/funding/spdh-institute/)
-
-<div style="display: flex; justify-content: center; gap: 30px; font-size: 0.9rem; margin-top: 10px;">
-    <img src="https://sites.utexas.edu/llilasbensonds/files/2019/03/lbds_header.png" style="width: 55%;"></div>
-
---
-
-#### **Recorte temporal, regional?**
-
---
-
-#### Red de vínculos
-
-_(Insertar imagen grafo: personajes asociados)_
+1568, Beatriz de Ysasaga, vecina de Trujillo, como viuda del capitán Garci Holguín, interpone ante el Consejo recurso de segunda suplicación de la sentencia dictada por la Audiencia de Lima en el pleito que contra ella ha seguido Jordana Mejía, de la misma vecindad, como viuda del Comendador Melchor Verdugo, de la Orden de Santiago, sobre el cumplimiento de una ejecutoria del Consejo, ganada por la citada Beatriz Ysasaga en el pleito que habían seguido los dichos sus maridos sobre la posesión de los indios de las parcialidades de Bambamarca, Pomamarca y el Chondal, en la provincia de Cajamarca.
 
 ---
 
 ## 7. Redes de mujeres (visualización)
 
-Insertá aquí tu `graph.svg` o `network.png` generado en Gephi o R.
+Probablemente será una red, generada en Gephi y con la manipulación de datos en R, para mostrar las relaciones en mi corpus completo. Similar al que presenté anteriormente.
 
 ---
 
 ## 8. Conclusiones
 
 - Las mujeres no solo participaron sino que **estructuraron** relaciones de poder.
-- La historia rioplatense necesita nuevas lecturas apoyadas en archivo + análisis de redes + microhistoria.
-
----
-
-## 9. Bibliografía breve
-
-Lavrin, Socolow, Twinam, Mannarelli, Lockhart, Ginzburg.
-
----
-
-##
-
-<section data-center="false">
-  <h2 style="text-align:center;">Mapa Interactivo</h2>
-
-  <div style="
-    display:flex;
-    justify-content:center;
-    width:100%;
-    padding-top:20px;
-  ">
-    <iframe
-      src="./mapa.html"
-      style="border:0; width:65%; height:65vh; border-radius:18px; box-shadow:0 0 20px rgba(0,0,0,0.45);"
-    ></iframe>
-  </div>
-</section>
+- La historia colonial en América del Sur puede recibir nuevas lecturas apoyadas en **archivo + análisis de redes + microhistoria**.
