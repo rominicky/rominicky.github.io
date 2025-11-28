@@ -125,7 +125,7 @@ Scholarship de [Spanish Paleography + Digital Humanities Institute](https://site
 
 Encomendera de los indios Laraos y Mancos. Constan también su padre Alonso Pérez Martel, su primer marido Francisco de Herrera, su segundo marido Hernando Martel de Mosquera y su hermano Bernardino Martel. Información contenida: 1574-1575, Archivo General de Indias, [Sección] Gobierno, [1ª División] Audiencia de Lima. [Fracción de Serie-Unidad de Instalación] Informaciones de oficio y parte.
 
-<img src="/static/slides/webstory/images/maria_martel.jpg">
+<!-- <img src="/static/slides/webstory/images/maria_martel.jpg"> -->
 
 --
 
