@@ -78,6 +78,8 @@ Estas mujeres desde su posición pudieron ser agentes de poder político, econó
 
 #### Mis problemas a resolver
 
+**Fuentes no digitalizadas**
+
 **Lectura de fuentes**
 
 **Recorte temporal, regional?**
@@ -138,6 +140,12 @@ Encomendera de los indios Laraos y Mancos. Constan también su padre Alonso Pér
 #### Jordana Mejía
 
 1568, Beatriz de Ysasaga, vecina de Trujillo, como viuda del capitán Garci Holguín, interpone ante el Consejo recurso de segunda suplicación de la sentencia dictada por la Audiencia de Lima en el pleito que contra ella ha seguido Jordana Mejía, de la misma vecindad, como viuda del Comendador Melchor Verdugo, de la Orden de Santiago, sobre el cumplimiento de una ejecutoria del Consejo, ganada por la citada Beatriz Ysasaga en el pleito que habían seguido los dichos sus maridos sobre la posesión de los indios de las parcialidades de Bambamarca, Pomamarca y el Chondal, en la provincia de Cajamarca.
+
+--
+
+#### Petronila de Castro
+
+Encomienda heredada de su marido, Juan de Cianca. Luego contrae nupcias con Juan de Villanueva. En 1560 tiene una disputa con Pedro de Zárate, no puede acceder a las fuentes porque no están digitalizadas. Sin embargo para 1581 está casada con Pedro de Zárate. La disputa está en Escrituras Públicas del Arc. Nac. de Bolivia, La Plata 1560. 1581 Confirmación de la encomienda otorgada a Juan de VIllanueva.
 
 ---
 
