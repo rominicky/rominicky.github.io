@@ -3,7 +3,7 @@ date: '2025-09-01'
 title: 'Análisis en R de la base de datos de DOAJ'
 cover: './doaj.png'
 github: 'https://github.com/hdlabconicet'
-external: 'https://hub.2i2c.mybinder.org/user/rominicky-analisis-doaj-7jvy6076/doc/tree/doaj-analisis.ipynb'
+external: 'https://github.com/rominicky/analisis-doaj/blob/main/doaj-analisis.html'
 tech:
   - R
   - Jupyter Notebook
