@@ -108,3 +108,25 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
     },
   });
 };
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+
+  createTypes(`
+    type MarkdownRemark implements Node {
+      frontmatter: Frontmatter
+    }
+
+    type Frontmatter {
+      title: String!
+      slug: String!
+      date: Date @dateformat
+      journal: String
+      category: String
+      type: String
+      url: String
+      tech: [String]
+      tags: [String]
+      draft: Boolean
+    }
+  `);
+};
