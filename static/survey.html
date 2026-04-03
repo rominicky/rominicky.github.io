@@ -1,0 +1,689 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Encuesta inicial – Módulo de actualización técnica y herramientas digitales</title>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Source+Sans+3:wght@300;400;600&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --bg: #f7f4ef;
+      --surface: #ffffff;
+      --ink: #1a1612;
+      --muted: #6b6460;
+      --accent: #c0392b;
+      --accent-light: #f9ecea;
+      --border: #ddd8d2;
+      --radius: 4px;
+      --font-display: 'Roboto', Roboto, sans-serif;
+      --font-body: 'Roboto', Roboto, sans-serif;
+    }
+
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+    body {
+      background: var(--bg);
+      color: var(--ink);
+      font-family: var(--font-body);
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 1.65;
+      min-height: 100vh;
+    }
+
+    /* ── Layout ── */
+    .shell {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 0 20px 80px;
+    }
+
+    /* ── Header bar ── */
+    .site-header {
+      border-bottom: 2px solid var(--ink);
+      padding: 28px 0 16px;
+      margin-bottom: 48px;
+    }
+    .site-header .eyebrow {
+      font-size: 11px;
+      letter-spacing: .2em;
+      text-transform: uppercase;
+      color: var(--muted);
+      margin-bottom: 6px;
+    }
+    .site-header h1 {
+      font-family: var(--font-display);
+      font-size: clamp(1.3rem, 4vw, 1.85rem);
+      font-weight: 700;
+      line-height: 1.25;
+    }
+    .site-header .byline {
+      margin-top: 10px;
+      font-size: 13px;
+      color: var(--muted);
+    }
+    .site-header .byline a { color: var(--accent); text-decoration: none; }
+    .site-header .byline a:hover { text-decoration: underline; }
+
+    /* ── Progress ── */
+    .progress-wrap {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      margin-bottom: 36px;
+    }
+    .progress-track {
+      flex: 1;
+      height: 3px;
+      background: var(--border);
+      border-radius: 2px;
+      overflow: hidden;
+    }
+    .progress-fill {
+      height: 100%;
+      background: var(--accent);
+      border-radius: 2px;
+      transition: width .5s ease;
+      width: 0%;
+    }
+    .progress-label {
+      font-size: 12px;
+      color: var(--muted);
+      white-space: nowrap;
+    }
+
+    /* ── Pages ── */
+    .page { display: none; animation: fadeUp .35s ease both; }
+    .page.active { display: block; }
+    @keyframes fadeUp {
+      from { opacity: 0; transform: translateY(12px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+
+    /* ── Section title ── */
+    .section-label {
+      display: flex;
+      align-items: baseline;
+      gap: 12px;
+      margin-bottom: 28px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid var(--border);
+    }
+    .section-label .num {
+      font-family: var(--font-display);
+      font-size: 2rem;
+      color: var(--accent);
+      line-height: 1;
+      opacity: .35;
+    }
+    .section-label h2 {
+      font-family: var(--font-display);
+      font-size: 1.25rem;
+      font-weight: 500;
+    }
+
+    /* ── Questions ── */
+    .question { margin-bottom: 28px; }
+    .question label.q-label {
+      display: block;
+      font-weight: 600;
+      margin-bottom: 10px;
+      font-size: 15px;
+    }
+    .question label.q-label .required { color: var(--accent); margin-left: 3px; }
+
+    /* text / textarea */
+    input[type="text"],
+    textarea {
+      width: 100%;
+      border: 1px solid var(--border);
+      border-radius: var(--radius);
+      padding: 10px 14px;
+      font-family: var(--font-body);
+      font-size: 15px;
+      color: var(--ink);
+      background: var(--surface);
+      transition: border-color .2s;
+      outline: none;
+    }
+    input[type="text"]:focus,
+    textarea:focus { border-color: var(--accent); box-shadow: 0 0 0 3px rgba(192,57,43,.1); }
+    textarea { resize: vertical; min-height: 90px; }
+
+    /* radio / checkbox custom */
+    .options { display: flex; flex-direction: column; gap: 8px; }
+    .opt-item {
+      display: flex;
+      align-items: flex-start;
+      gap: 10px;
+      cursor: pointer;
+    }
+    .opt-item input[type="radio"],
+    .opt-item input[type="checkbox"] {
+      appearance: none;
+      -webkit-appearance: none;
+      width: 18px;
+      height: 18px;
+      min-width: 18px;
+      border: 2px solid var(--border);
+      background: var(--surface);
+      border-radius: 50%;
+      margin-top: 2px;
+      cursor: pointer;
+      transition: border-color .2s, background .2s;
+      position: relative;
+    }
+    .opt-item input[type="checkbox"] { border-radius: 3px; }
+    .opt-item input[type="radio"]:checked,
+    .opt-item input[type="checkbox"]:checked {
+      border-color: var(--accent);
+      background: var(--accent);
+    }
+    .opt-item input[type="radio"]:checked::after {
+      content: '';
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%,-50%);
+      width: 6px; height: 6px;
+      border-radius: 50%;
+      background: white;
+    }
+    .opt-item input[type="checkbox"]:checked::after {
+      content: '✓';
+      position: absolute;
+      top: 50%; left: 50%;
+      transform: translate(-50%,-50%);
+      font-size: 11px;
+      color: white;
+      line-height: 1;
+    }
+    .opt-item span { font-size: 15px; padding-top: 1px; }
+    .opt-item:hover input { border-color: var(--accent); }
+
+    /* conditional text */
+    .cond-field { display: none; margin-top: 10px; }
+    .cond-field.visible { display: block; }
+
+    /* ── Nav buttons ── */
+    .nav-row {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      margin-top: 36px;
+      padding-top: 24px;
+      border-top: 1px solid var(--border);
+    }
+    .btn {
+      padding: 10px 28px;
+      font-family: var(--font-body);
+      font-size: 14px;
+      font-weight: 600;
+      letter-spacing: .05em;
+      cursor: pointer;
+      border-radius: var(--radius);
+      border: 2px solid var(--ink);
+      transition: background .2s, color .2s;
+    }
+    .btn-prev { background: transparent; color: var(--ink); }
+    .btn-prev:hover { background: var(--ink); color: white; }
+    .btn-next { background: var(--ink); color: white; }
+    .btn-next:hover { background: #3d3530; }
+    .btn-submit { background: var(--accent); color: white; border-color: var(--accent); }
+    .btn-submit:hover { background: #a93226; border-color: #a93226; }
+    .btn:disabled { opacity: .4; cursor: not-allowed; }
+
+    /* ── Welcome page ── */
+    .welcome-body { font-size: 15.5px; color: #3a3530; margin-bottom: 32px; }
+    .welcome-body p + p { margin-top: 12px; }
+    .start-btn {
+      display: inline-flex;
+      align-items: center;
+      gap: 8px;
+      padding: 12px 32px;
+      background: var(--accent);
+      color: white;
+      border: none;
+      border-radius: var(--radius);
+      font-family: var(--font-body);
+      font-size: 15px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background .2s;
+    }
+    .start-btn:hover { background: #a93226; }
+
+    /* ── Thank you page ── */
+    .thanks {
+      text-align: center;
+      padding: 60px 20px;
+    }
+    .thanks .icon { font-size: 3rem; margin-bottom: 16px; }
+    .thanks h2 {
+      font-family: var(--font-display);
+      font-size: 1.8rem;
+      margin-bottom: 12px;
+    }
+    .thanks p { color: var(--muted); font-size: 15px; }
+
+    /* ── Error ── */
+    .error-msg {
+      font-size: 13px;
+      color: var(--accent);
+      margin-top: 6px;
+      display: none;
+    }
+    .error-msg.visible { display: block; }
+
+    /* ── Spinner ── */
+    .spinner {
+      display: inline-block;
+      width: 16px; height: 16px;
+      border: 2px solid rgba(255,255,255,.4);
+      border-top-color: white;
+      border-radius: 50%;
+      animation: spin .7s linear infinite;
+      vertical-align: middle;
+      margin-right: 6px;
+    }
+    @keyframes spin { to { transform: rotate(360deg); } }
+
+    @media (max-width: 500px) {
+      .btn { padding: 9px 18px; font-size: 13px; }
+    }
+  </style>
+</head>
+<body>
+<div class="shell">
+
+  <!-- Header -->
+  <header class="site-header">
+    <p class="eyebrow">Módulo de actualización técnica y herramientas digitales</p>
+    <h1>Encuesta inicial</h1>
+    <p class="byline">
+      Prof. Romina De León &nbsp;·&nbsp;
+      <a href="mailto:romideleon@gmail.com">romideleon@gmail.com</a> &nbsp;·&nbsp;
+      <a href="https://rominicky.github.io/" target="_blank">rominicky.github.io</a>
+    </p>
+  </header>
+
+  <!-- Progress -->
+  <div class="progress-wrap" id="progressWrap" style="display:none;">
+    <div class="progress-track"><div class="progress-fill" id="progressFill"></div></div>
+    <span class="progress-label" id="progressLabel"></span>
+  </div>
+
+  <!-- ════════════════════ PAGE 0 – Bienvenida ════════════════════ -->
+  <div class="page active" id="page-0">
+    <div class="welcome-body">
+      <p>Esta encuesta busca conocer tu experiencia previa con herramientas digitales, así como tus temas de investigación y formación.</p>
+      <p>Tomará entre 3 y 5 minutos. Tus respuestas son confidenciales y se usarán solo con fines pedagógicos.</p>
+    </div>
+    <button class="start-btn" onclick="goToPage(1)">Comencemos →</button>
+  </div>
+
+  <!-- ════════════════════ PAGE 1 – Perfil académico ════════════════════ -->
+  <div class="page" id="page-1">
+    <div class="section-label"><span class="num">1</span><h2>Perfil académico</h2></div>
+
+    <div class="question">
+      <label class="q-label" for="nombre">¿Cuál es tu nombre completo? <span class="required">*</span></label>
+      <input type="text" id="nombre" placeholder="Tu nombre y apellido" />
+      <p class="error-msg" id="err-nombre">Este campo es obligatorio.</p>
+    </div>
+
+    <div class="question">
+      <label class="q-label" for="area">¿Cuál es tu área de investigación?</label>
+      <input type="text" id="area" placeholder="Ej. Historia colonial, Literatura comparada…" />
+    </div>
+
+    <div class="question">
+      <label class="q-label">Tu nivel de formación más alto <span class="required">*</span></label>
+      <div class="options">
+        <label class="opt-item"><input type="radio" name="nivel_estudios" value="prof" /><span>Profesorado</span></label>
+        <label class="opt-item"><input type="radio" name="nivel_estudios" value="lic" /><span>Licenciatura</span></label>
+        <label class="opt-item"><input type="radio" name="nivel_estudios" value="ma" /><span>Maestría</span></label>
+        <label class="opt-item"><input type="radio" name="nivel_estudios" value="doc" /><span>Doctorado</span></label>
+        <label class="opt-item"><input type="radio" name="nivel_estudios" value="otro" id="nivel-otro-radio" /><span>Otro (especificar)</span></label>
+      </div>
+      <div class="cond-field" id="cond-nivel">
+        <input type="text" id="nivel_estudios_otro" placeholder="Especificá tu nivel de formación" />
+      </div>
+      <p class="error-msg" id="err-nivel">Por favor seleccioná una opción.</p>
+    </div>
+
+    <div class="nav-row">
+      <span></span>
+      <button class="btn btn-next" onclick="nextPage(1, 2, validatePage1)">Siguiente →</button>
+    </div>
+  </div>
+
+  <!-- ════════════════════ PAGE 2 – Uso tecnológico ════════════════════ -->
+  <div class="page" id="page-2">
+    <div class="section-label"><span class="num">2</span><h2>Uso tecnológico</h2></div>
+
+    <div class="question">
+      <label class="q-label">¿Cómo describirías tu uso de herramientas digitales? <span class="required">*</span></label>
+      <div class="options">
+        <label class="opt-item"><input type="radio" name="uso_general" value="bajo" /><span>Básico</span></label>
+        <label class="opt-item"><input type="radio" name="uso_general" value="medio" /><span>Intermedio</span></label>
+        <label class="opt-item"><input type="radio" name="uso_general" value="alto" /><span>Avanzado</span></label>
+      </div>
+      <p class="error-msg" id="err-uso">Por favor seleccioná una opción.</p>
+    </div>
+
+    <div class="question">
+      <label class="q-label">¿Qué herramientas utilizás habitualmente? (podés marcar varias)</label>
+      <div class="options">
+        <label class="opt-item"><input type="checkbox" name="herramientas" value="excel" /><span>Excel / hojas de cálculo</span></label>
+        <label class="opt-item"><input type="checkbox" name="herramientas" value="zotero" /><span>Zotero / gestores de información</span></label>
+        <label class="opt-item"><input type="checkbox" name="herramientas" value="imagenes" /><span>Edición de imágenes</span></label>
+        <label class="opt-item"><input type="checkbox" name="herramientas" value="bd" /><span>Bases de datos</span></label>
+        <label class="opt-item"><input type="checkbox" name="herramientas" value="texto" /><span>Editor de textos (distinto de Word)</span></label>
+        <label class="opt-item"><input type="checkbox" name="herramientas" value="ninguna" /><span>Ninguna</span></label>
+        <label class="opt-item"><input type="checkbox" name="herramientas" value="otro" id="herr-otro-cb" /><span>Otro (especificar)</span></label>
+      </div>
+      <div class="cond-field" id="cond-herr">
+        <input type="text" id="herramientas_otro" placeholder="¿Cuál/es?" />
+      </div>
+    </div>
+
+    <div class="nav-row">
+      <button class="btn btn-prev" onclick="goToPage(1)">← Anterior</button>
+      <button class="btn btn-next" onclick="nextPage(2, 3, validatePage2)">Siguiente →</button>
+    </div>
+  </div>
+
+  <!-- ════════════════════ PAGE 3 – Tipos de datos ════════════════════ -->
+  <div class="page" id="page-3">
+    <div class="section-label"><span class="num">3</span><h2>Uso de tipos de datos</h2></div>
+
+    <div class="question">
+      <label class="q-label">¿Has trabajado con datasets (CSV, Excel)? <span class="required">*</span></label>
+      <div class="options">
+        <label class="opt-item"><input type="radio" name="data" value="0" /><span>Nunca</span></label>
+        <label class="opt-item"><input type="radio" name="data" value="1" /><span>Poco</span></label>
+        <label class="opt-item"><input type="radio" name="data" value="2" /><span>Frecuentemente</span></label>
+      </div>
+      <p class="error-msg" id="err-data">Por favor seleccioná una opción.</p>
+    </div>
+
+    <div class="question">
+      <label class="q-label">¿Has limpiado datos (errores, formatos)? <span class="required">*</span></label>
+      <div class="options">
+        <label class="opt-item"><input type="radio" name="limpieza" value="0" /><span>Nunca</span></label>
+        <label class="opt-item"><input type="radio" name="limpieza" value="1" /><span>A veces</span></label>
+        <label class="opt-item"><input type="radio" name="limpieza" value="2" /><span>Sí, regularmente</span></label>
+      </div>
+      <p class="error-msg" id="err-limpieza">Por favor seleccioná una opción.</p>
+    </div>
+
+    <div class="question">
+      <label class="q-label" for="limpieza_metodo">Si limpiaste datos, ¿qué software usaste o fue de forma manual?</label>
+      <input type="text" id="limpieza_metodo" placeholder="Ej. Excel, OpenRefine, manual…" />
+    </div>
+
+    <div class="nav-row">
+      <button class="btn btn-prev" onclick="goToPage(2)">← Anterior</button>
+      <button class="btn btn-next" onclick="nextPage(3, 4, validatePage3)">Siguiente →</button>
+    </div>
+  </div>
+
+  <!-- ════════════════════ PAGE 4 – Programación ════════════════════ -->
+  <div class="page" id="page-4">
+    <div class="section-label"><span class="num">4</span><h2>Lenguajes de programación</h2></div>
+
+    <div class="question">
+      <label class="q-label">¿Tenés experiencia en programación? <span class="required">*</span></label>
+      <div class="options">
+        <label class="opt-item"><input type="radio" name="programacion" value="0" /><span>Ninguna</span></label>
+        <label class="opt-item"><input type="radio" name="programacion" value="1" /><span>Básica</span></label>
+        <label class="opt-item"><input type="radio" name="programacion" value="2" /><span>Intermedia / avanzada</span></label>
+      </div>
+      <p class="error-msg" id="err-prog">Por favor seleccioná una opción.</p>
+    </div>
+
+    <div class="question">
+      <label class="q-label">¿Qué lenguajes conocés? (podés marcar varios)</label>
+      <div class="options">
+        <label class="opt-item"><input type="checkbox" name="lenguajes" value="r" /><span>R</span></label>
+        <label class="opt-item"><input type="checkbox" name="lenguajes" value="python" /><span>Python</span></label>
+        <label class="opt-item"><input type="checkbox" name="lenguajes" value="web" /><span>HTML / CSS</span></label>
+        <label class="opt-item"><input type="checkbox" name="lenguajes" value="none" /><span>Ninguno</span></label>
+        <label class="opt-item"><input type="checkbox" name="lenguajes" value="otro" id="lang-otro-cb" /><span>Otro (especificar)</span></label>
+      </div>
+      <div class="cond-field" id="cond-lang">
+        <input type="text" id="lenguaje_otro" placeholder="¿Cuál/es?" />
+      </div>
+    </div>
+
+    <div class="nav-row">
+      <button class="btn btn-prev" onclick="goToPage(3)">← Anterior</button>
+      <button class="btn btn-next" onclick="nextPage(4, 5, validatePage4)">Siguiente →</button>
+    </div>
+  </div>
+
+  <!-- ════════════════════ PAGE 5 – Humanidades Digitales ════════════════════ -->
+  <div class="page" id="page-5">
+    <div class="section-label"><span class="num">5</span><h2>Humanidades Digitales</h2></div>
+
+    <div class="question">
+      <label class="q-label">¿Qué herramientas DH conocés? (podés marcar varias)</label>
+      <div class="options">
+        <label class="opt-item"><input type="checkbox" name="dh_tools" value="voyant" /><span>Voyant</span></label>
+        <label class="opt-item"><input type="checkbox" name="dh_tools" value="qgis" /><span>QGIS</span></label>
+        <label class="opt-item"><input type="checkbox" name="dh_tools" value="gephi" /><span>Gephi</span></label>
+        <label class="opt-item"><input type="checkbox" name="dh_tools" value="none" /><span>Ninguna</span></label>
+        <label class="opt-item"><input type="checkbox" name="dh_tools" value="otro" id="dh-otro-cb" /><span>Otro (especificar)</span></label>
+      </div>
+      <div class="cond-field" id="cond-dh">
+        <input type="text" id="dh_tools_otro" placeholder="¿Cuál/es?" />
+      </div>
+    </div>
+
+    <div class="question">
+      <label class="q-label" for="experiencia">¿Querés añadir algo sobre tu experiencia previa con herramientas digitales?</label>
+      <textarea id="experiencia" placeholder="Contanos lo que quieras…"></textarea>
+    </div>
+
+    <div class="nav-row">
+      <button class="btn btn-prev" onclick="goToPage(4)">← Anterior</button>
+      <button class="btn btn-next" onclick="nextPage(5, 6, ()=>true)">Siguiente →</button>
+    </div>
+  </div>
+
+  <!-- ════════════════════ PAGE 6 – Expectativas ════════════════════ -->
+  <div class="page" id="page-6">
+    <div class="section-label"><span class="num">6</span><h2>Expectativas</h2></div>
+
+    <div class="question">
+      <label class="q-label">Nivel de confianza tecnológica <span class="required">*</span></label>
+      <div class="options">
+        <label class="opt-item"><input type="radio" name="confianza" value="1" /><span>Bajo</span></label>
+        <label class="opt-item"><input type="radio" name="confianza" value="2" /><span>Medio</span></label>
+        <label class="opt-item"><input type="radio" name="confianza" value="3" /><span>Alto</span></label>
+      </div>
+      <p class="error-msg" id="err-conf">Por favor seleccioná una opción.</p>
+    </div>
+
+    <div class="question">
+      <label class="q-label" for="expectativas">¿Qué esperás aprender en el curso? <span class="required">*</span></label>
+      <textarea id="expectativas" placeholder="Contanos tus expectativas…"></textarea>
+      <p class="error-msg" id="err-exp">Este campo es obligatorio.</p>
+    </div>
+
+    <div class="question">
+      <label class="q-label" for="comentarios">¿Querés agregar algún comentario adicional?</label>
+      <input type="text" id="comentarios" placeholder="Opcional" />
+    </div>
+
+    <div class="nav-row">
+      <button class="btn btn-prev" onclick="goToPage(5)">← Anterior</button>
+      <button class="btn btn-submit" id="submitBtn" onclick="submitForm()">Enviar encuesta</button>
+    </div>
+  </div>
+
+  <!-- ════════════════════ PAGE 7 – Gracias ════════════════════ -->
+  <div class="page" id="page-7">
+    <div class="thanks">
+      <div class="icon">😀</div>
+      <h2>¡Gracias por completar la encuesta!</h2>
+      <p>Tus respuestas fueron guardadas correctamente.<br>Ya podés cerrar esta ventana.</p>
+    </div>
+  </div>
+
+</div><!-- /shell -->
+
+<script>
+  // ─────────────────────────────────────────────
+  // ⚠️  REEMPLAZÁ esta URL con la de tu Apps Script
+  // ─────────────────────────────────────────────
+  const APPS_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbwGVOoUOdtn8MbcnQfN1aEIlTSZ26cCxxevQfoGUb7MTMj-9MAh4vsVH-PT_X8WZEN1/exec";
+
+  const TOTAL_SURVEY_PAGES = 6; // páginas con preguntas (1–6)
+
+  // ── Navigation ──
+  function goToPage(n) {
+    document.querySelectorAll('.page').forEach(p => p.classList.remove('active'));
+    document.getElementById('page-' + n).classList.add('active');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+    updateProgress(n);
+  }
+
+  function nextPage(from, to, validator) {
+    if (validator()) goToPage(to);
+  }
+
+  function updateProgress(pageNum) {
+    const wrap = document.getElementById('progressWrap');
+    const fill = document.getElementById('progressFill');
+    const label = document.getElementById('progressLabel');
+    if (pageNum === 0 || pageNum === 7) { wrap.style.display = 'none'; return; }
+    wrap.style.display = 'flex';
+    const pct = Math.round((pageNum / TOTAL_SURVEY_PAGES) * 100);
+    fill.style.width = pct + '%';
+    label.textContent = pageNum + ' / ' + TOTAL_SURVEY_PAGES;
+  }
+
+  // ── Conditional fields ──
+  document.getElementById('nivel-otro-radio').addEventListener('change', () => {
+    document.getElementById('cond-nivel').classList.toggle('visible',
+      document.getElementById('nivel-otro-radio').checked);
+  });
+  document.querySelectorAll('[name="nivel_estudios"]').forEach(r => {
+    r.addEventListener('change', () => {
+      if (r.value !== 'otro')
+        document.getElementById('cond-nivel').classList.remove('visible');
+    });
+  });
+
+  document.getElementById('herr-otro-cb').addEventListener('change', function() {
+    document.getElementById('cond-herr').classList.toggle('visible', this.checked);
+  });
+  document.getElementById('lang-otro-cb').addEventListener('change', function() {
+    document.getElementById('cond-lang').classList.toggle('visible', this.checked);
+  });
+  document.getElementById('dh-otro-cb').addEventListener('change', function() {
+    document.getElementById('cond-dh').classList.toggle('visible', this.checked);
+  });
+
+  // ── Validation helpers ──
+  function showErr(id, show) {
+    document.getElementById(id).classList.toggle('visible', show);
+  }
+  function getRadio(name) {
+    const el = document.querySelector(`input[name="${name}"]:checked`);
+    return el ? el.value : '';
+  }
+  function getCheckboxes(name) {
+    return [...document.querySelectorAll(`input[name="${name}"]:checked`)]
+      .map(el => el.value).join(', ');
+  }
+
+  function validatePage1() {
+    let ok = true;
+    if (!document.getElementById('nombre').value.trim()) { showErr('err-nombre', true); ok = false; }
+    else showErr('err-nombre', false);
+    if (!getRadio('nivel_estudios')) { showErr('err-nivel', true); ok = false; }
+    else showErr('err-nivel', false);
+    return ok;
+  }
+  function validatePage2() {
+    if (!getRadio('uso_general')) { showErr('err-uso', true); return false; }
+    showErr('err-uso', false);
+    return true;
+  }
+  function validatePage3() {
+    let ok = true;
+    if (!getRadio('data')) { showErr('err-data', true); ok = false; }
+    else showErr('err-data', false);
+    if (!getRadio('limpieza')) { showErr('err-limpieza', true); ok = false; }
+    else showErr('err-limpieza', false);
+    return ok;
+  }
+  function validatePage4() {
+    if (!getRadio('programacion')) { showErr('err-prog', true); return false; }
+    showErr('err-prog', false);
+    return true;
+  }
+  function validatePage6() {
+    let ok = true;
+    if (!getRadio('confianza')) { showErr('err-conf', true); ok = false; }
+    else showErr('err-conf', false);
+    if (!document.getElementById('expectativas').value.trim()) { showErr('err-exp', true); ok = false; }
+    else showErr('err-exp', false);
+    return ok;
+  }
+
+  // ── Collect all data ──
+  function collectData() {
+    return {
+      timestamp: new Date().toLocaleString('es-AR'),
+      nombre:            document.getElementById('nombre').value.trim(),
+      area:              document.getElementById('area').value.trim(),
+      nivel_estudios:    getRadio('nivel_estudios'),
+      nivel_estudios_otro: document.getElementById('nivel_estudios_otro').value.trim(),
+      uso_general:       getRadio('uso_general'),
+      herramientas:      getCheckboxes('herramientas'),
+      herramientas_otro: document.getElementById('herramientas_otro').value.trim(),
+      data:              getRadio('data'),
+      limpieza:          getRadio('limpieza'),
+      limpieza_metodo:   document.getElementById('limpieza_metodo').value.trim(),
+      programacion:      getRadio('programacion'),
+      lenguajes:         getCheckboxes('lenguajes'),
+      lenguaje_otro:     document.getElementById('lenguaje_otro').value.trim(),
+      dh_tools:          getCheckboxes('dh_tools'),
+      dh_tools_otro:     document.getElementById('dh_tools_otro').value.trim(),
+      experiencia:       document.getElementById('experiencia').value.trim(),
+      confianza:         getRadio('confianza'),
+      expectativas:      document.getElementById('expectativas').value.trim(),
+      comentarios:       document.getElementById('comentarios').value.trim(),
+    };
+  }
+
+  // ── Submit ──
+  async function submitForm() {
+    if (!validatePage6()) return;
+
+    const btn = document.getElementById('submitBtn');
+    btn.disabled = true;
+    btn.innerHTML = '<span class="spinner"></span> Enviando…';
+
+    const data = collectData();
+
+    try {
+      await fetch(APPS_SCRIPT_URL, {
+        method: 'POST',
+        mode: 'no-cors',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(data)
+      });
+      goToPage(7);
+    } catch (err) {
+      btn.disabled = false;
+      btn.textContent = 'Enviar encuesta';
+      alert('Hubo un problema al enviar. Verificá tu conexión y volvé a intentar.');
+    }
+  }
+</script>
+</body>
+</html>
