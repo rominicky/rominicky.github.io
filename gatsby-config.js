@@ -7,7 +7,7 @@ module.exports = {
   },
   siteMetadata: {
     title: 'Romina De León',
-    description: '.',
+    description: 'Historiadora, especialista en Humanidades Digitales',
     siteUrl: 'https://rominicky.github.io', // No trailing slash allowed!
     image: '/', // Path to your image you placed in the 'static' folder
     twitterUsername: '@rominicky.dl',
