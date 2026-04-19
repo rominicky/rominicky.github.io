@@ -32,12 +32,12 @@ module.exports = {
     {
       name: 'Artículos',
       description: 'Publicaciones y artículos',
-      url: '/#post',
+      url: '/pensieve/',
     },
     {
       name: 'Enseñanza',
       description: 'Repositorio con recursos para enseñanza.',
-      url: '/materiales/materiales.html',
+      url: 'https://rominicky.github.io/materiales/',
     },
     {
       name: 'Proyectos',

@@ -7,6 +7,160 @@ module.exports = {
   },
   siteMetadata: {
     title: 'Romina De León',
+    description:
+      'Historiadora y especialista en Humanidades Digitales. Investigadora en minería de texto, estilometría y edición digital.',
+    siteUrl: 'https://rominicky.github.io',
+    image: '/og.png',
+    twitterUsername: '@rominicky.dl',
+  },
+  plugins: [
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-styled-components`,
+    `gatsby-plugin-image`,
+    `gatsby-plugin-sharp`,
+    `gatsby-transformer-sharp`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-plugin-robots-txt`,
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: 'Romina De León',
+        short_name: 'rdeleon',
+        start_url: '/',
+        background_color: config.colors.darkNavy,
+        theme_color: config.colors.navy,
+        display: 'minimal-ui',
+        icon: 'src/images/logo.png',
+      },
+    },
+    `gatsby-plugin-offline`,
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `featured`,
+        path: `${__dirname}/content/featured/`,
+      },
+    },
+    {
+      resolve: 'gatsby-source-filesystem',
+      options: {
+        name: 'content',
+        path: `${__dirname}/content/`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `posts`,
+        path: `${__dirname}/content/posts`,
+      },
+    },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `projects`,
+        path: `${__dirname}/content/projects`,
+      },
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: 'gatsby-remark-external-links',
+            options: {
+              target: '_blank',
+              rel: 'nofollow noopener noreferrer',
+            },
+          },
+          {
+            resolve: 'gatsby-remark-images',
+            options: {
+              maxWidth: 700,
+              linkImagesToOriginal: true,
+              quality: 90,
+            },
+          },
+          {
+            resolve: `gatsby-plugin-sharp`,
+            options: {
+              defaults: {
+                formats: [`auto`, `webp`, `avif`],
+                placeholder: `blurred`,
+                quality: 90,
+                breakpoints: [750, 1080, 1366, 1920],
+                backgroundColor: `transparent`,
+              },
+            },
+          },
+          {
+            resolve: 'gatsby-remark-code-titles',
+          },
+          {
+            resolve: `gatsby-remark-prismjs`,
+            options: {
+              classPrefix: 'language-',
+              inlineCodeMarker: null,
+              aliases: {},
+              showLineNumbers: false,
+              noInlineHighlight: false,
+              languageExtensions: [
+                {
+                  language: 'superscript',
+                  extend: 'javascript',
+                  definition: {
+                    superscript_types: /(SuperType)/,
+                  },
+                  insertBefore: {
+                    function: {
+                      superscript_keywords: /(superif|superelse)/,
+                    },
+                  },
+                },
+              ],
+              prompt: {
+                user: 'root',
+                host: 'localhost',
+                global: false,
+              },
+            },
+          },
+        ],
+      },
+    },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        trackingId: 'UA-45666519-2',
+      },
+    },
+  ],
+};
+
+exports.createSchemaCustomization = ({ actions }) => {
+  const { createTypes } = actions;
+  createTypes(`
+    type MarkdownRemarkFrontmatter {
+      cover: File @fileByRelativePath
+    }
+  `);
+};
+/* const config = require('./src/config');
+
+module.exports = {
+  pathPrefix: '/',
+  flags: {
+    DEV_SSR: false,
+  },
+  siteMetadata: {
+    title: 'Romina De León',
     description: 'Historiadora, especialista en Humanidades Digitales',
     siteUrl: 'https://rominicky.github.io', // No trailing slash allowed!
     image: '/', // Path to your image you placed in the 'static' folder
@@ -188,3 +342,4 @@ exports.createSchemaCustomization = ({ actions }) => {
     }
   `);
 };
+ */
