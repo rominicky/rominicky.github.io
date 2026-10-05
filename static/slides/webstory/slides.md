@@ -13,7 +13,10 @@
 
 ## 1. La paradoja estructural del poder femenino en el Virreinato del Perú
 
-¿Cómo ejerce autoridad y administra poder una mujer que, dentro de la sociedad hispánica, ocupa una posición de subordinación y minoridad jurídica?
+¿Cómo ejerce autoridad y administra poder una mujer que, dentro de la sociedad hispánica, ocupa **a la vez** una posición de subordinación y una de dominio?
+
+- **Subordinadas:** bajo la tutela legal de padres, maridos o albaceas.
+- **Dominantes:** controlaban el trabajo, el tributo y los cuerpos de pueblos encomendados y personas esclavizadas.
 
 <div style="display: flex; justify-content: center; gap: 30px; font-size: 0.9rem; margin-top: 10px;">
   <div style="display: flex; flex-direction: column; align-items: center; width: 40%; text-align: center;">
@@ -28,33 +31,53 @@
 
 ---
 
-## 2. Problema, fuentes e hipótesis
+## 2. Desde dónde miro y qué falta
 
-<span class="tooltip">El poder femenino<span class="tooltip-text">
-Acciones y estrategias con que las mujeres, como individuo o colectivo, puedieron negociar en y con el poder en lo económico, social y jurídico en el mundo colonial.</span></span> aparece en en estas voces “marginales” en distintos tipos de documentación:
+- **Género y colonialidad**
+- **Subordinadas, no subalternas**
+- **Agencia situada** y **lectura a contrapelo**: ni anticolonial ni emancipatoria.
+- **Lo que hay:** biografías y casos puntuales:
+  - María Rostworowski
+  - Liliana Pérez Miguel
+  - Ana María Presta
+  - Zambrano Cardona, entre otrxs.
+  - Proyectos digitales descriptivos y espaciales.
 
-- información de oficios y partes (Archivos históricos)
-- gestión de bienes (Archivos históricos)
-- litigios judiciales (Archivos históricos)
-- cartas (Archivos históricos)
-- Acción política cotidiana y movilidad territorial (Bibliografía)
-- redes de protección y sociabilidad
+**Vacío:** falta una mirada **relacional** sobre los vínculos de estas mujeres con pares, administración y poblaciones racializadas.
+
+---
+
+## 3. Problema, fuentes e hipótesis
+
+**Pregunta directriz:**
+
+- ¿Cómo ejerce autoridad quien ocupa simultáneamente una posición de subordinación y una de dominio?
+
+Preguntas derivadas:
+
+- ¿Qué relaciones se tejieron entre mujeres de distintas jerarquías y condiciones raciales?
+- ¿Cómo influyó la religión en su agencia?
 
 --
 
 #### Hipótesis
 
-Estas mujeres, desde su posición subordinada al orden social, económico y religioso hispánico, lograron constituirse como **agentes estructurantes de poder político, económico y social**. Se buscará evidenciarlo, comprobando la coacción y administración en las poblaciones racializadas, originarios y esclavizados, a través de diversas fuentes.
+Combinar lectura cercana y lectura distante permitirá superar la lógica de casos individuales y comprender como estas mujeres, desde su posición subordinada al orden social, económico y religioso hispánico, lograron, \*en los márgenes y los intersticios** de esta sociedad, constituirse como **agentes estructurantes de poder político, económico y social\*\*. Se buscará evidenciarlo, comprobando la coacción y administración en las poblaciones racializadas, originarios y esclavizados, a través de diversas fuentes.
 
 --
 
-##### Fuentes del archivo colonial
+## 3. Archivos y recorte
 
 - Archivo General de las Indias (Probanzas de bienes y servicios; Testamentos, bienes de difuntos; Expedientes judiciales)
 - Fondo Documental del Archivo General de la Nación del Perú - Archivo Histórico Digital del Archivo General de la Nación
 - Archivo y Biblioteca Nacionales de Bolivia
 - Censos (Aún no encontré y tampoco estoy segura si será relevante)
 - Cartas y peticiones (Igual que el anterior)
+
+**Recorte temporal y geográfico\*
+Siglos XVI y principios del XVII, núcleo andino (Audiencias de Lima y Charcas), con **proyección comparada hacia el sur del Virreinato\*\* (Tucumán, Paraguay, Córdoba), donde la encomienda tuvo mutaciones.
+
+--
 
 ##### Fragmentos del archivo colonial
 
@@ -80,18 +103,22 @@ Estas mujeres, desde su posición subordinada al orden social, económico y reli
   </a>
 </div>
 
---
+---
 
-#### Problemas metodológicos a resolver
+## 5. Problemas metodológicos a resolver
 
 - **Fuentes no digitalizadas**: Acervos clave (ej. AGN Bolivia) que requieren trabajo _in situ_.
 - **Lectura paleográfica hermenéutica:** Dificultad técnica de la letra procesal encadenada y sesgo burocrático de la Corona.
-- **Delimitación estricta:** Recorte temporal (siglos XVI-XVII) y regional (Virreinato del Perú, con proyecciones hacia el sur).
+- **Transcripción asistida (HTR)**, por ejemplo con Transkribus.
 - **Herramientas computacionales:** Evaluar la arquitectura digital para el análisis macro de estas fuentes.
 
 ---
 
-## 5. El cruce digital: Redes de vínculos y personajes
+##### El cruce digital: Redes de vínculos y personajes
+
+Siguiendo a Drucker, lo que se produce no es _data_ sino **_capta_**: datos construidos e interpretados.
+
+**Historia digital, no solo historia por medios digitales** (Noiret): lo digital reescribe el método. **Minimal computing:** código abierto, bajo costo y formatos portables.
 
 <iframe 
   src="https://hdlab.space/viaje-al-rio-de-la-plata/sigma-viz/index.html#%C3%81lvar%20N%C3%BA%C3%B1ez%20Cabeza%20de%20Vaca"
@@ -140,7 +167,9 @@ Encomienda heredada de su marido, Juan de Cianca. Luego contrae nupcias con Juan
 
 ---
 
-## 7. Redes de mujeres - Hacia el macroanálisis
+## 7. Del caso a la red - Hacia el macroanálisis
+
+La lectura cercana restituye la voz de una encomendera en un expediente. Para detectar **patrones en muchas encomiendas y vínculos** hace falta otra escala: lectura distante (Moretti) y macroanálisis (Jockers). Las máquinas leen a escala; la interpretación histórica sigue siendo humana.
 
 Mediante la estructuración de _capta_ en TEI-XML, la transcripción asistida (HTR), si es que los modelos son efectivos, a través de un posterior análisis textual estadístico de datos en R/Python, que permitirán generar visualizaciones de grafos (Gephi / Sigma.js), proyecto modelar **una red más acabada de un corpus doctoral**.
 
@@ -150,5 +179,6 @@ Cada unos de estos nodos y aristas revelarán simultáneamente sus vínculos _ha
 
 ## 8. Conclusiones
 
-- Leídas a contrapelo, las mujeres de la elite no solo participaron del sistema colonial, sino que **estructuraron activamente** las relaciones de dominación y de poder colonial.
+- Leídas a contrapelo, se espera mostrar que las mujeres de la élite no solo participaron del sistema colonial, sino que **sostuvieron y reprodujeron** relaciones de dominación, negociando con la autoridad desde los márgenes.
+- Una **lectura relacional y a escala** del poder femenino, que la historiografía de casos aislados no ha producido.
 - La historia colonial en América del Sur puede recibir nuevas lecturas, porque no respuestas, sustentándose de la convergencia metodológica: **archivo + análisis de redes + Humanidades Digitales + microhistoria**.
