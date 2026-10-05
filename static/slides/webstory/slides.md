@@ -47,7 +47,7 @@
 
 ---
 
-## 3. Problema, fuentes e hipótesis
+## 3. Problemas e hipótesis
 
 **Pregunta directriz:**
 
@@ -62,7 +62,7 @@ Preguntas derivadas:
 
 #### Hipótesis
 
-Combinar lectura cercana y lectura distante permitirá superar la lógica de casos individuales y comprender como estas mujeres, desde su posición subordinada al orden social, económico y religioso hispánico, lograron, \*en los márgenes y los intersticios** de esta sociedad, constituirse como **agentes estructurantes de poder político, económico y social\*\*. Se buscará evidenciarlo, comprobando la coacción y administración en las poblaciones racializadas, originarios y esclavizados, a través de diversas fuentes.
+Combinar lectura cercana y lectura distante permitirá superar la lógica de casos individuales y comprender como estas mujeres, desde su posición subordinada al orden social, económico y religioso hispánico, lograron, **en los márgenes y los intersticios** de esta sociedad, constituirse como **agentes estructurantes de poder político, económico y social**. Se buscará evidenciarlo, comprobando la coacción y administración en las poblaciones racializadas, originarios y esclavizados, a través de diversas fuentes.
 
 --
 
@@ -74,8 +74,8 @@ Combinar lectura cercana y lectura distante permitirá superar la lógica de cas
 - Censos (Aún no encontré y tampoco estoy segura si será relevante)
 - Cartas y peticiones (Igual que el anterior)
 
-**Recorte temporal y geográfico\*
-Siglos XVI y principios del XVII, núcleo andino (Audiencias de Lima y Charcas), con **proyección comparada hacia el sur del Virreinato\*\* (Tucumán, Paraguay, Córdoba), donde la encomienda tuvo mutaciones.
+**Recorte temporal y geográfico**
+Siglos XVI y principios del XVII, núcleo andino (Audiencias de Lima y Charcas), con **proyección comparada hacia el sur del Virreinato** (Tucumán, Paraguay, Córdoba), donde la encomienda tuvo mutaciones.
 
 --
 
