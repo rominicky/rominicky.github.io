@@ -5,8 +5,8 @@
 ##### [Romina De León](romideleon@gmail.com)
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 40px; margin-top: 20px;">
-  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Conicet_Logo_con_letras.png" style="width: 15%;">
-  <img src="images/genera-logo.png" style="width: 15%;">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Conicet_Logo_con_letras.png" style="width: 25%;">
+  <img src="images/genera-logo.png" style="width: 25%;">
 </div>
 
 ---
