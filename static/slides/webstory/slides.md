@@ -1,27 +1,25 @@
-## Voces veladas
+## Encomenderas, mediación y poder en el ámbito colonial andino (siglos XVI-XVII)
 
-### Recuperación de la agencia femenina a través del archivo colonial
-
-#### Virreinato del Perú, s. XVI-XVII
+### De la microhistoria a la Historia Digital
 
 ##### [Romina De León](romideleon@gmail.com)
 
-<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Conicet_Logo_con_letras.png" width="18%">
+<img src="https://upload.wikimedia.org/wikipedia/commons/3/3d/Conicet_Logo_con_letras.png" width="38%">
 
 ---
 
-## 1. Introducción
+## 1. La paradoja estructural del poder femenino en el Virreinato del Perú
 
-Las mujeres como sujetos históricos, han sido invisibilizadas por la historiografía tradicional, así como también por sus contemporáneos. Sin embargo, este punto ha sido discutido, por ello a partir de este trabajo, trataré de reexaminar y profundizar el papel de las mujeres como **agentes sociales, políticos y económicos** en el espacio colonial. En particular, de mujeres que llevaron adelante sus encomiendas.
+¿Cómo ejerce autoridad y administra poder una mujer que, dentro de la sociedad hispánica, ocupa una posición de subordinación y minoridad jurídica?
 
 <div style="display: flex; justify-content: center; gap: 30px; font-size: 0.9rem; margin-top: 10px;">
   <div style="display: flex; flex-direction: column; align-items: center; width: 40%; text-align: center;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/f/f7/Planche_XXIX.jpg" style="width: 55%;">
-    <em>Mujeres españolas con un criollo peruano</em>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Criollos-Espa%C3%B1oles_Per%C3%ACodo_Colonial_en_Am%C3%A9rica_(cropped)1.jpg" style="width: 55%;">
+    <em>Criollos y españoles en la sociedad estamental. <br> Dibujo de la crónica peruana de Felipe Guamán Poma de Ayala, siglo XVI.</em>
   </div>
   <div style="display: flex; flex-direction: column; align-items: center; width: 40%; text-align: center;">
-    <img src="https://upload.wikimedia.org/wikipedia/commons/c/ce/Planche_XXXVI.jpg" style="width: 55%;">
-    <em>Mujeres bebiendo "té paraguayo" con mate o taza de calabaza (Amédée-François Frézier, 1714)</em>
+    <img src="https://www.memoriachilena.gob.cl/602/articles-100512_thumbnail.jpg" style="width: 55%; border: 1px solid #ccc;">
+    <em>El corregidor de minas castiga cruelmente a los caciques principales. <br>Felipe Guamán Poma de Ayala (1615).</em>
   </div>
 </div>
 
@@ -29,28 +27,29 @@ Las mujeres como sujetos históricos, han sido invisibilizadas por la historiogr
 
 ## 2. Problema, fuentes e hipótesis
 
-La <span class="tooltip">agencia femenina
-<span class="tooltip-text">Entendida como las acciones y estrategias con que las mujeres, como individuo o colectivo, puedieron negociar en y con el poder en lo económico, social y jurídico en el mundo colonial.</span></span> aparece en en estas voces “marginales” en distintos tipos de documentación:
+<span class="tooltip">El poder femenino<span class="tooltip-text">
+Acciones y estrategias con que las mujeres, como individuo o colectivo, puedieron negociar en y con el poder en lo económico, social y jurídico en el mundo colonial.</span></span> aparece en en estas voces “marginales” en distintos tipos de documentación:
 
 - información de oficios y partes (Archivos históricos)
 - gestión de bienes (Archivos históricos)
 - litigios judiciales (Archivos históricos)
-- acción política cotidiana (Bibliografía)
-- redes de protección y sociabilidad (Bibliografía)
-- movilidad territorial (Bibliografía)
+- cartas (Archivos históricos)
+- Acción política cotidiana y movilidad territorial (Bibliografía)
+- redes de protección y sociabilidad
 
 --
 
 #### Hipótesis
 
-Estas mujeres desde su posición pudieron ser agentes de poder político, económico, y social, por ende buscaré comprobarlo a través de las diferentes fuentes.
+Estas mujeres, desde su posición subordinada al orden social, económico y religioso hispánico, lograron constituirse como **agentes estructurantes de poder político, económico y social**. Se buscará evidenciarlo, comprobando la coacción y administración en las poblaciones racializadas, originarios y esclavizados, a través de diversas fuentes.
 
 --
 
 ##### Fuentes del archivo colonial
 
 - Archivo General de las Indias (Probanzas de bienes y servicios; Testamentos, bienes de difuntos; Expedientes judiciales)
-- Archivo General de la Nación del Perú - Archivo Histórico Digital del Archivo General de la Nación
+- Fondo Documental del Archivo General de la Nación del Perú - Archivo Histórico Digital del Archivo General de la Nación
+- Archivo y Biblioteca Nacionales de Bolivia
 - Censos (Aún no encontré y tampoco estoy segura si será relevante)
 - Cartas y peticiones (Igual que el anterior)
 
@@ -72,39 +71,24 @@ Estas mujeres desde su posición pudieron ser agentes de poder político, econó
   <a href="/slides/webstory/images/de_ribera.jpg" data-lightbox="docs" data-title="Protocolos notariales - Obligación, Mariana de Ribera, 1599">
     <img src="/slides/webstory/images/de_ribera.jpg" width="200">
   </a>
+
+  <a href="/slides/webstory/images/elvira-manrique.jpg" data-lightbox="docs" data-title="Pedro de Ucedo del Aguila, como albacea de don Alvaro de Chaves y en nombre de doña Elvira Manrique, doña Maria de Sotomayor, doña Catalina de Chaves y doña Elvira Menrique de Chaves, mujer e hijos de Nufmde Chaves, que por los servicios de este y de sus hijos don Alvaro y don Francisco de Chaves, y habiendo muerto estos, las mercedes que debian hacer a don Alvaro se hagan a doña Elvira y sus hijas, que se encuentran muy pobres, 1591">
+    <img src="/slides/webstory/images/elvira-manrique.jpg" width="200">
+  </a>
 </div>
 
 --
 
-#### Mis problemas a resolver
+#### Problemas metodológicos a resolver
 
-**Fuentes no digitalizadas**
+- **Fuentes no digitalizadas**: Acervos clave (ej. AGN Bolivia) que requieren trabajo _in situ_.
+- **Lectura paleográfica hermenéutica:** Dificultad técnica de la letra procesal encadenada y sesgo burocrático de la Corona.
+- **Delimitación estricta:** Recorte temporal (siglos XVI-XVII) y regional (Virreinato del Perú, con proyecciones hacia el sur).
+- **Herramientas computacionales:** Evaluar la arquitectura digital para el análisis macro de estas fuentes.
 
-**Lectura de fuentes**
+---
 
-**Recorte temporal, regional?**
-
-**Evaluar herramientas a utilizar para mi análisis**
-
---
-
-#### Lecturas de fuentes
-
-Scholarship de [Spanish Paleography + Digital Humanities Institute](https://sites.utexas.edu/llilasbensonds/funding/spdh-institute/)
-
-<div style="display: flex; justify-content: center; gap: 30px; font-size: 0.9rem; margin-top: 10px;">
-    <img src="https://sites.utexas.edu/llilasbensonds/files/2019/03/lbds_header.png" style="width: 65%;"></div>
-
---
-
-#### **Recorte temporal, regional?**
-
-- Virreinato del Perú
-- Siglos XVI-XVII
-
---
-
-#### Red de vínculos, personajes, utilización de herramientas digitales
+## 5. El cruce digital: Redes de vínculos y personajes
 
 <iframe 
   src="https://hdlab.space/viaje-al-rio-de-la-plata/sigma-viz/index.html#%C3%81lvar%20N%C3%BA%C3%B1ez%20Cabeza%20de%20Vaca"
@@ -115,7 +99,13 @@ Scholarship de [Spanish Paleography + Digital Humanities Institute](https://site
 
 ---
 
-## 3. Mis voces veladas
+## 6. Mis voces veladas
+
+#### Elvira Manrique de Chaves
+
+1591, Archivo General de Indias / Simancas. Información de méritos y servicios del general Ñuflo de Chaves y sus hijos (1580-1616). Viuda del <span class="tooltip">gobernador<span class="tooltip-text">Ñuflo de Chaves fundador de Santa Cruz de la Sierra en</span></span>, quedó en una declarada necesidad extrema. Sin embargo, ejerció una activa triangulación legal, pues sus hijos Francisco y Álvaro, quienes también prestaron servicios a la Corona, y murieron sin descencia, continuaron las campañas militares, por ello, reclamó mercedes y rentas ante la Corona mediante mediadores varones (como el albacea Pedro de Voedo) para asegurar el sustento de su linaje femenino.
+
+--
 
 #### María Ramírez
 
@@ -147,13 +137,15 @@ Encomienda heredada de su marido, Juan de Cianca. Luego contrae nupcias con Juan
 
 ---
 
-## 7. Redes de mujeres (visualización)
+## 7. Redes de mujeres - Hacia el macroanálisis
 
-Probablemente será una red, generada en Gephi y con la manipulación de datos en R, para mostrar las relaciones en mi corpus completo. Similar al que presenté anteriormente.
+Mediante la estructuración de _capta_ en TEI-XML, la transcripción asistida (HTR), si es que los modelos son efectivos, a través de un posterior análisis textual estadístico de datos en R/Python, que permitirán generar visualizaciones de grafos (Gephi / Sigma.js), proyecto modelar **una red más acabada de un corpus doctoral**.
+
+Cada unos de estos nodos y aristas revelarán simultáneamente sus vínculos _hacia arriba_ (alianzas y mediadores judiciales) y _hacia abajo_ (administración coactiva de los pueblos originarios y esclavizados).
 
 ---
 
 ## 8. Conclusiones
 
-- Las mujeres no solo participaron sino que **estructuraron** relaciones de poder.
-- La historia colonial en América del Sur puede recibir nuevas lecturas apoyadas en **archivo + análisis de redes + microhistoria**.
+- Leídas a contrapelo, las mujeres de la elite no solo participaron del sistema colonial, sino que **estructuraron activamente** las relaciones de dominación y de poder colonial.
+- La historia colonial en América del Sur puede recibir nuevas lecturas, porque no respuestas, sustentándose de la convergencia metodológica: **archivo + análisis de redes + Humanidades Digitales + microhistoria**.
