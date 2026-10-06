@@ -18,7 +18,7 @@
 - **Subordinadas:** bajo la tutela legal de padres, maridos o albaceas.
 - **Dominantes:** controlaban el trabajo, el tributo y los cuerpos de pueblos encomendados y personas esclavizadas.
 
-<div class="gallery" style="display: flex; justify-content: center; gap: 30px; font-size: 0.9rem; margin-top: 10px;">
+<div class="gallery">
 <div style="display: flex; flex-direction: column; align-items: center; width: 40%; text-align: center;">
     <a href="https://upload.wikimedia.org/wikipedia/commons/0/04/Criollos-Espa%C3%B1oles_Per%C3%ACodo_Colonial_en_Am%C3%A9rica_(cropped)1.jpg" 
        data-lightbox="guaman-poma" 
