@@ -14,13 +14,13 @@ Mi propuesta es un puente: partir de la lectura a contrapelo, y escalar hacia el
   - Barrera material: La letra procesal encadenada.
   - Barrera discursiva: La subalternidad archivística y la burocracia patriarcal.
 
-Hoy en día, la digitalización masiva de repositorios Hoy PARES o el Archivo General de la Nación del Perú nos dan una sensación de inmediatez: el documento está a un clic. Pero esa transparencia es una ilusión, porque hay dos barreras.
+Hoy en día, la digitalización masiva de repositorios como PARES o el Archivo General de la Nación del Perú nos dan una sensación de inmediatez: el documento está a un clic. Pero esa transparencia es una ilusión, porque hay dos barreras.
 
 La primera es material: la letra procesal encadenada del siglo XVI, que hace costosa incluso la lectura básica.
 
-La segunda es discursiva. Como dice Arlette Farge, el archivo no es un depósito neutro, es un dispositivo de poder. La administración indiana no tenía un vocabulario para registrar la acción de las mujeres de manera autónoma. Probanzas de méritos y expedientes construían la legitimidad del "yo conquistador", como lo plantea Dussel, y ellas aparecen como hijas, esposas o viudas. A esto lo llamo subalternidad archivística.
+La segunda es discursiva. Como dice Arlette Farge, el archivo no es un depósito neutro, es un dispositivo de poder. La administración indiana no tenía un vocabulario para registrar la acción de las mujeres de manera autónoma. Probanzas de méritos y expedientes construían la legitimidad del "yo conquistador", como lo plantea Dussel, y ellas aparecen como hijas, esposas o viudas-->subalternidad archivística.
 
-Aun así, sus voces pueden rastrearse. Leyendo a contrapelo, y con el paradigma indicial de Ginzburg, podemos buscar en los márgenes del documento la presencia activa que el propio documento intenta subordinar.
+Aun así, sus voces pueden rastrearse. Leyendo a contrapelo, y con el paradigma indicial de Carlo Ginzburg, podemos buscar en los márgenes del documento la presencia activa que el propio documento intenta subordinar.
 
 ### Slide 3: La Paradoja: Subordinación vs. Dominio
 
