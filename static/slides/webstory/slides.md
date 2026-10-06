@@ -60,13 +60,13 @@ Preguntas derivadas:
 
 --
 
-#### Hipótesis
+##### Hipótesis
 
 Combinar lectura cercana y lectura distante permitirá superar la lógica de casos individuales y comprender como estas mujeres, desde su posición subordinada al orden social, económico y religioso hispánico, lograron, **en los márgenes y los intersticios** de esta sociedad, constituirse como **agentes estructurantes de poder político, económico y social**. Se buscará evidenciarlo, comprobando la coacción y administración en las poblaciones racializadas, originarios y esclavizados, a través de diversas fuentes.
 
---
+---
 
-## 3. Archivos y recorte
+## 4. Archivos y recorte
 
 - Archivo General de las Indias (Probanzas de bienes y servicios; Testamentos, bienes de difuntos; Expedientes judiciales)
 - Fondo Documental del Archivo General de la Nación del Perú - Archivo Histórico Digital del Archivo General de la Nación
@@ -112,7 +112,7 @@ Siglos XVI y principios del XVII, núcleo andino (Audiencias de Lima y Charcas),
 - **Transcripción asistida (HTR)**, por ejemplo con Transkribus.
 - **Herramientas computacionales:** Evaluar la arquitectura digital para el análisis macro de estas fuentes.
 
----
+--
 
 ##### El cruce digital: Redes de vínculos y personajes
 
@@ -131,7 +131,7 @@ Siguiendo a Drucker, lo que se produce no es _data_ sino **_capta_**: datos cons
 
 ## 6. Mis voces veladas
 
-#### Elvira Manrique de Chaves
+#### Mi primer acercamiento: Elvira Manrique de Chaves
 
 1591, Archivo General de Indias / Simancas. Información de méritos y servicios del general Ñuflo de Chaves y sus hijos (1580-1616). Viuda del <span class="tooltip">gobernador<span class="tooltip-text">Ñuflo de Chaves fundador de Santa Cruz de la Sierra en</span></span>, quedó en una declarada necesidad extrema. Sin embargo, ejerció una activa triangulación legal, pues sus hijos Francisco y Álvaro, quienes también prestaron servicios a la Corona, y murieron sin descencia, continuaron las campañas militares, por ello, reclamó mercedes y rentas ante la Corona mediante mediadores varones (como el albacea Pedro de Voedo) para asegurar el sustento de su linaje femenino.
 

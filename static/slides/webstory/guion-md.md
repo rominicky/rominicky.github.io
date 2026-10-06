@@ -2,11 +2,11 @@
 
 ## De la microhistoria a la Historia Digital
 
-Avances de mi investigación, actualmente como anteproyecto doctoral, donde estudiaré a las mujeres encomenderas del Virreinato del Perú, entre los siglos XVI y principios del XVII, donde propongo una pregunta metodológica: ¿qué cambia en nuestra comprensión de estas mujeres si pasamos de la lectura de casos individuales a una lectura relacional y a escala, con herramientas de las Humanidades Digitales?
+Avances de mi investigación, actualmente como anteproyecto doctoral, donde estudiaré a las mujeres encomenderas del Virreinato del Perú, entre los siglos XVI y principios del XVII, y propongo una pregunta metodológica: ¿qué cambia en nuestra comprensión de estas mujeres si pasamos de la lectura de casos individuales a una lectura relacional y a escala, con herramientas de las Humanidades Digitales?
 
-Mi pregunta central es esta: ¿cómo ejerce autoridad quien ocupa, al mismo tiempo, una posición de subordinación y una de dominio? Las encomenderas eran mujeres bajo la tutela legal de padres, maridos o albaceas. Y a la vez controlaban el trabajo, el tributo y los cuerpos de comunidades indígenas y de personas esclavizadas.
+Mi pregunta central es esta: ¿cómo ejerce autoridad quien ocupa, al mismo tiempo, una posición de subordinación y una de dominio? Las encomenderas eran mujeres bajo la tutela legal de padres, maridos o albaceas, pero a la vez controlaban el trabajo, el tributo y los cuerpos de comunidades indígenas y de personas esclavizadas.
 
-Mi propuesta es un puente: partir de la lectura a contrapelo, propia de la microhistoria, y escalar hacia el análisis relacional que habilitan las Humanidades Digitales.
+Mi propuesta es un puente: partir de la lectura a contrapelo, y escalar hacia el análisis relacional que habilitan las Humanidades Digitales.
 
 ### Slide 2 - La Doble Barrera del Archivo
 
