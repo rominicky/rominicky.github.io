@@ -1,11 +1,12 @@
-# Encomenderas, mediación y poder en el ámbito colonial andino en el siglo XVI.
+# Encomenderas, mediación y poder en el ámbito colonial andino en el siglo XVI
 
-## De la microhistoria a la Historia Digital.Romina De León (UBA / CONICET)
+## De la microhistoria a la Historia Digital
 
-Buenas tardes a todos y todas. Es un gusto compartir este primer bloque con Paula y Valentina. Lo que vengo a presentarles hoy son los avances de mi investigación, actualmente como anteproyecto doctoral, donde exploro cómo las herramientas de las Humanidades Digitales nos permiten desentrañar la agencia y accionar femenino en el temprano Virreinato del Perú.
-Mi pregunta central gira en torno a una paradoja estructural
-¿Cómo ejerce autoridad y administra poder una mujer que, dentro de la sociedad hispánica, ocupa una posición de subordinación y minoridad jurídica?
-Para responder esto, mi trabajo propone un puente metodológico: partir de la lectura a contrapelo caracteristica de la microhistoria, para escalar hacia el análisis relacional que nos brinda las Humanidades Digitales y la Hisotria Digital.
+Avances de mi investigación, actualmente como anteproyecto doctoral, donde estudiaré a las mujeres encomenderas del Virreinato del Perú, entre los siglos XVI y principios del XVII, donde propongo una pregunta metodológica: ¿qué cambia en nuestra comprensión de estas mujeres si pasamos de la lectura de casos individuales a una lectura relacional y a escala, con herramientas de las Humanidades Digitales?
+
+Mi pregunta central es esta: ¿cómo ejerce autoridad quien ocupa, al mismo tiempo, una posición de subordinación y una de dominio? Las encomenderas eran mujeres bajo la tutela legal de padres, maridos o albaceas. Y a la vez controlaban el trabajo, el tributo y los cuerpos de comunidades indígenas y de personas esclavizadas.
+
+Mi propuesta es un puente: partir de la lectura a contrapelo, propia de la microhistoria, y escalar hacia el análisis relacional que habilitan las Humanidades Digitales.
 
 ### Slide 2 - La Doble Barrera del Archivo
 
@@ -13,7 +14,13 @@ Para responder esto, mi trabajo propone un puente metodológico: partir de la le
   - Barrera material: La letra procesal encadenada.
   - Barrera discursiva: La subalternidad archivística y la burocracia patriarcal.
 
-Hoy en día, la digitalización masiva de repositorios como PARES o el Archivo General de la Nación de Perú nos da una falsa sensación de inmediatez. Parece que el documento está ahí, disponible a un clic. Sin embargo, nos enfrentamos a una doble barrera. La primera es material y técnica: la insidiosa letra procesal encadenada del siglo XVI. La segunda es discursiva: el sesgo constitutivo de la burocracia imperial. La administración indiana carecía de un vocabulario para registrar la agencia femenina de manera autónoma. A esto lo entiendo como una subalternidad archivística. Las mujeres de la élite encomendera aparecen camufladas bajo relaciones de dependencia paterna o marital, en documentos que funcionaban como artefactos para legitimar el 'yo conquistador' masculino.
+Hoy en día, la digitalización masiva de repositorios Hoy PARES o el Archivo General de la Nación del Perú nos dan una sensación de inmediatez: el documento está a un clic. Pero esa transparencia es una ilusión, porque hay dos barreras.
+
+La primera es material: la letra procesal encadenada del siglo XVI, que hace costosa incluso la lectura básica.
+
+La segunda es discursiva. Como dice Arlette Farge, el archivo no es un depósito neutro, es un dispositivo de poder. La administración indiana no tenía un vocabulario para registrar la acción de las mujeres de manera autónoma. Probanzas de méritos y expedientes construían la legitimidad del "yo conquistador", como lo plantea Dussel, y ellas aparecen como hijas, esposas o viudas. A esto lo llamo subalternidad archivística.
+
+Aun así, sus voces pueden rastrearse. Leyendo a contrapelo, y con el paradigma indicial de Ginzburg, podemos buscar en los márgenes del documento la presencia activa que el propio documento intenta subordinar.
 
 ### Slide 3: La Paradoja: Subordinación vs. Dominio
 
@@ -21,7 +28,11 @@ Hoy en día, la digitalización masiva de repositorios como PARES o el Archivo G
   - Subordinación tutelada frente a la élite masculina.
   - Dominio activo y coacción sobre los pueblos subalternos.
 
-Para desarmar este sesgo, es indispensable una distinción conceptual rigurosa. Estas mujeres estaban subordinadas al patriarcado hispánico, pero no eran subalternas en términos estructurales. Siguiendo la noción del 'sistema moderno colonial de género' de María Lugones, y el concepto de colonialismo interno de Silvia Rivera Cusicanqui, analizo a estas mujeres como partícipes activas de la dominación. Ejercían autoridad, administraban tributos y dirigían servicios personales. Su agencia no era anticolonial ni emancipatoria; era una práctica situada que buscaba afirmar sus propios privilegios linajudos reproduciendo el orden asimétrico sobre las poblaciones indígenas y las personas esclavizadas.
+Acá necesito una distinción conceptual precisa. Estas mujeres estaban subordinadas al patriarcado hispánico, pero no eran subalternas en términos estructurales.
+
+Con el "sistema moderno colonial de género" de María Lugones, entiendo que la categoría "mujer" se construyó sobre un ideal blanco y europeo, y que género y clasificación racial se constituyen a la vez. Por eso las encomenderas ocupaban un lugar doble: minorizadas frente al varón de su clase, pero parte del polo dominante frente a las poblaciones indígenas y esclavizadas. Sumo la mirada de Silvia Rivera Cusicanqui sobre el colonialismo interno.
+
+De ahí sale un punto que quiero subrayar: su agencia no fue anticolonial ni emancipatoria. Con Saba Mahmood, la entiendo como una práctica situada, que buscaba afirmar su estatus y su linaje dentro de un orden que ellas mismas reproducían.
 
 ### Slide 4: El Corpus y la Proyección Doctoral
 
@@ -30,8 +41,17 @@ Para desarmar este sesgo, es indispensable una distinción conceptual rigurosa. 
   - Hacia la tesis: Ampliación geográfica y temporal, siglo XVI y principios del siglo XVII.
   - Fuentes: Probanzas de méritos, litigios, testamentos, epistolar.
 
-La propuesta metodológica del anteproyecto para mi tesis doctoral extiende su análisis a fuentes del siglo XVI y principios del XVII, y se amplía geográficamente hacia el sur del Virreinato. Esto me permite estudiar los orígenes de esta dinámica, la encomienda, así como sus mutaciones, transformaciones y asincronías regionales. En este avance empírico me enfoco en los expedientes de mujeres como Elvira Manrique, María Ramírez, Mariana de Ribera y María Martel. A través de ellas observamos que utilizaron los intersticios del orden jurídico para desplegar una brillante 'triangulación legal', litigando a través de mediadores masculinos para retener sus encomiendas.
-El caso de Elvira Manrique de Chaves es paradigmático de esta triangulación legal. Al enviudar del gobernador Ñuflo de Chaves, los expedientes de méritos y servicios relatan que ella y sus hijas quedaron sumidas en la necesidad. Sin embargo, la lectura a contrapelo nos muestra que esta aparente fragilidad fue el motor de su agencia: Elvira actuó como proveedora material de su hijo Álvaro en las campañas de la cordillera. Posteriormente, articuló un fuerte reclamo de rentas ante la Corona utilizando mediadores varones, como el albacea Pedro de Voedo, quien exigió que la merced económica recayera sobre doña Elvira y sus hijas. Mariana de Ribera es otro ejemplo notable de gestión patrimonial: en 1599 actúa jurídicamente como encomendera de Magdalena para obligar a caciques locales a la entrega de bienes, respaldada por su marido. Y el litigio de Jordana Mejía de 1568 en Cajamarca, donde se enfrenta a otra mujer viuda de alto rango disputándose ante la justicia el control de tres parcialidades indígenas, evidenciando un litigio de poder brutal mediado entre mujeres.
+La propuesta metodológica del anteproyecto para mi tesis doctoral extiende su análisis a fuentes del siglo XVI y principios del XVII, y se amplía geográficamente hacia el sur del Virreinato. Esto es lo que ya tengo trabajado y lo que propongo para la tesis.
+
+El corpus reúne probanzas de méritos y servicios, litigios sobre repartimientos, testamentos y correspondencia. La tesis amplía el recorte a principios del siglo XVII y se proyecta hacia el sur del Virreinato, donde la encomienda de servicio personal duró mucho más. Esa asincronía regional no es un problema: me sirve para comparar cómo cambió la acción de estas mujeres según el momento en que la institución se desarticulaba.
+
+Como avance empírico trabajé con los expedientes de Elvira Manrique de Chaves, María Ramírez, Mariana de Ribera y María Martel.
+
+Elvira, viuda del gobernador Ñuflo de Chaves, aparece en los méritos y servicios como una mujer que quedó en la necesidad junto a sus hijas. Leída a contrapelo, esa fragilidad es también el punto de partida de su acción: abasteció a su hijo Álvaro en las campañas de la cordillera y reclamó rentas a la Corona a través de mediadores varones, como el albacea Pedro de Voedo. Es lo que llamo triangulación legal: una mujer legalmente incapaz que litiga por medio de otros. Según Presta, en el marco legal las mujeres, sobre todo hijas y viudas, casi no tenían capacidad jurídica propia, y lo que valía en ellas era lo que traían consigo: una buena dote, muchas veces una encomienda. Elvira es viuda, y está en esa posición. Pero no se queda en la necesidad que declara el expediente. Se apoya en los servicios de su marido y de sus hijos, Álvaro y Francisco, y reclama a través de un albacea, Pedro de Ucedo. Lo que la norma le negaba como sujeto, lo resuelve con mediadores varones. Eso es lo que llamo triangulación legal.
+
+Mariana de Ribera, en 1599, actúa jurídicamente como encomendera para obligar a caciques a entregar bienes, con respaldo de su marido. Y en 1568, en Cajamarca, Jordana Mejía disputa con otra viuda de alto rango el control de tres parcialidades. Ahí el conflicto de poder está mediado entre mujeres.
+
+Estos casos me dejan una pregunta que la historiografía toca de costado: si estas mujeres administraban directamente, si delegaban en mayordomos o parientes, y si los pleitos de sucesión eran también una forma de gobernar el vínculo con los subordinados.
 
 ### Slide 5: El choque entre la IA y la Curaduría Histórica
 
@@ -39,7 +59,11 @@ El caso de Elvira Manrique de Chaves es paradigmático de esta triangulación le
   - El límite de los modelos automatizados (HTR/LLMs) ante las fuentes coloniales.
   - La necesidad del "human in the loop".
 
-Para procesar este volumen de folios recurro a modelos de reconocimiento de texto manuscrito (HTR) como Transkribus y a la extracción de datos estructurados mediante modelos de lenguaje local. Pero aquí es donde la Historia Digital exige rigor crítico: la máquina no comprende la genealogía colonial. Por ejemplo, al procesar ciertos expedientes, una lectura automatizada o un modelo sin contexto puede leer la palabra 'mexico', cuando la curaduría paleográfica manual permite restituir que el manuscrito en realidad dice 'Mendoça', y que la figura mencionada no era un 'clérigo', sino Joan de Mendoça, el marido de Mariana de Ribera. Del mismo modo, donde la IA alucina un nombre como 'Geronimo' o 'Raul' a principio de línea, el ojo entrenado detecta que se trata de la conjunción 'y' proveniente de la página anterior, seguida del nombre 'Gaspar'. O la importancia de cruzar los datos extraídos con repositorios como PARES para confirmar, por ejemplo, que Juan Sierra de Leguizamo era efectivamente el marido de María Ramírez. La curaduría manual es irremplazable, el 'human in the loop' es irremplazable para generar capta —datos humanísticos interpretados— y no solo data.
+Para procesar este volumen uso reconocimiento de texto manuscrito con Transkribus y extracción de datos estructurados con modelos de lenguaje locales. Pero acá la Historia Digital exige rigor crítico, porque la máquina no conoce la genealogía colonial.
+
+Tres ejemplos reales de mi corpus. Un modelo sin contexto leyó "mexico"; la revisión paleográfica restituyó "Mendoça", y la figura no era un clérigo sino Joan de Mendoça, marido de Mariana de Ribera. En otro folio, la IA inventó un nombre como "Geronimo" o "Raul" al inicio de una línea; era una "y" que venía de la página anterior, seguida de "Gaspar". Y para confirmar que Juan Sierra de Leguizamo era marido de María Ramírez, crucé los datos con PARES.
+
+Transcribir, normalizar nombres y categorizar atributos son decisiones hermenéuticas, no pasos técnicos neutros. Por eso el "human in the loop" es irremplazable. Siguiendo a Johanna Drucker, lo que produzco no es data, dato dado, sino capta: datos construidos e interpretados.
 
 ### Slide 6: De la Lectura Cercana al Macroanálisis
 
@@ -47,7 +71,13 @@ Para procesar este volumen de folios recurro a modelos de reconocimiento de text
   - Lectura distante (Distant Reading) --> Sistematizar lo invisible.
   - Pipelines: TEI-XML --> R / Python--> Visualización
 
-Una vez que el texto está curado, pasamos de la lectura cercana —morosa y detallada— a la lectura distante. Ningún ojo humano puede retener folio a folio las redes de decenas de personajes que interactúan en estos litigios. Para esto, estructuro los datos adoptando el paradigma del minimal computing. Esto no es solo una elección técnica, es una postura política desde el Sur Global: utilizar recursos de bajo costo, código abierto, lenguajes como R y Python, y marcado en TEI-XML para no depender de infraestructuras cerradas del Norte. Transformar las fuentes manuscritas en capta (datos construidos) nos permite aplicar procesamiento de lenguaje natural y modelado de datos para ver qué patrones retóricos se repiten cuando estas mujeres defienden sus encomiendas frente a la Real Audiencia.
+La lectura cercana es indispensable para restituir la voz de una encomendera en un expediente. Pero no alcanza si quiero preguntar por patrones en muchas encomiendas y muchos vínculos con subalternos. Ningún ojo humano retiene, folio a folio, las redes de decenas de personas que aparecen en estos litigios.
+
+Ahí entra la lectura distante de Moretti y el macroanálisis de Jockers. Las máquinas leen a otra escala y a nosotros nos toca darles sentido histórico. Concretamente: marcado en TEI-XML, y análisis en R y Python, con procesamiento de lenguaje natural, modelado de tópicos y análisis de redes.
+
+Esto sigue la distinción de Serge Noiret: no propongo una historia por medios digitales, que solo usa herramientas, sino una historia digital, que reescribe los métodos profesionales.
+
+Adopto el minimal computing: código abierto, bajo costo, formatos portables. Es una decisión técnica y también política, pertinente para las condiciones de la investigación en Argentina, porque reduce barreras de acceso y evita depender de infraestructuras cerradas.
 
 ### Slide 7: Redes de Poder y Dominación
 
@@ -56,7 +86,13 @@ Una vez que el texto está curado, pasamos de la lectura cercana —morosa y det
   - Hacia abajo: Dominio, coacción, pueblos originarios.
     [Sugerencia visual: Incluir aquí una captura de un grafo de red o plot que hayas generado en R o Python]
 
-El resultado de este procesamiento computacional es la visualización de la agencia femenina a través del Análisis de Redes. Los grafos nos permiten mapear simultáneamente los dos vectores que atraviesan a la encomendera: su vector 'hacia arriba', conectándose con oidores, procuradores y pares de la élite para negociar su tutela; y su vector 'hacia abajo', graficando su rol activo y coactivo en la administración de las comunidades indígenas y el servicio personal. El análisis de grafos rompe el espejismo del archivo burocrático, revelando a la mujer como un nodo central e indispensable en la circulación del poder económico colonial, algo que la historiografía tradicional basada en casos aislados solo había intuido.
+El análisis de redes me permite mapear a la vez los dos vectores que atraviesan a la encomendera.
+
+Hacia arriba: sus vínculos con pares de la élite, oidores, procuradores y la justicia, donde negocia su posición.
+
+Hacia abajo: su autoridad sobre comunidades indígenas y personas esclavizadas, y los posibles vínculos que pudo tejer con ellas.
+
+Mi hipótesis es que este análisis permitirá ver a la encomendera no como un caso aislado, sino como un nodo en la circulación del poder económico colonial, algo que la historiografía de casos puntuales solo pudo intuir. Estudios recientes, como el de Quiroga, ya mostraron que las redes interpersonales condicionaban los resultados de la justicia colonial; lo que propongo es sistematizarlo en un corpus más amplio
 
 ### Slide 8: Conclusiones
 
@@ -64,4 +100,10 @@ El resultado de este procesamiento computacional es la visualización de la agen
   - La mujer de élite como sujeto histórico activo.
   - La tecnología al servicio de las voces veladas.
 
-Para concluir, la intersección entre la crítica documental tradicional y el procesamiento computacional de las Humanidades Digitales nos permite hackear el monopolio burocrático patriarcal de la temprana colonia. Al extraer, limpiar y modelar computacionalmente estos expedientes del siglo XVI, demostramos que las encomenderas no fueron una anomalía o un mero anexo demográfico. Fueron verdaderos sujetos históricos que sostuvieron la estructura virreinal, administrando el dominio sobre el mundo subalterno mientras disputaban palmo a palmo sus privilegios en los estrados judiciales. Escuchar estas voces veladas hoy requiere, paradójicamente, que les enseñemos a las máquinas a leer entre las líneas del imperio.
+Para cerrar tres ideas.
+
+Primera: existe un vacío historiográfico. Tenemos buenas biografías de encomenderas, de Rostworowski, Pérez Miguel, Presta y Zambrano Cardona, entre otras, pero casi todas son de casos puntuales. Y los proyectos digitales sobre mujeres coloniales, como el de Alvarado Escudero sobre capullanas y cacicas, son descriptivos y espaciales, sin análisis relacional.
+
+Segunda: mi hipótesis es que combinar lectura cercana y lectura distante permite pasar de casos individuales a una comprensión sistémica y relacional del poder femenino, ejercido desde la subordinación y el dominio a la vez.
+
+Tercera: la tecnología no reemplaza la crítica documental, la potencia. Si todo sale bien, esta tesis ayudará a mostrar que las encomenderas no fueron una anomalía ni un anexo demográfico, sino sujetos que sostuvieron el orden virreinal y lo disputaron en los estrados judiciales. Y para escuchar esas voces veladas, paradójicamente, tenemos que enseñarles a las máquinas a leer entre las líneas del imperio.
