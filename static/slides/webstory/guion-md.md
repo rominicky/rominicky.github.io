@@ -28,9 +28,9 @@ Aun así, sus voces pueden rastrearse. Leyendo a contrapelo, y con el paradigma 
   - Subordinación tutelada frente a la élite masculina.
   - Dominio activo y coacción sobre los pueblos subalternos.
 
-Acá necesito una distinción conceptual precisa. Estas mujeres estaban subordinadas al patriarcado hispánico, pero no eran subalternas en términos estructurales.
+En lo que respecta a mi idea de paradoja, necesito una distinción conceptual precisa. Estas mujeres estaban subordinadas al patriarcado hispánico, pero no eran subalternas en términos estructurales, acá debo tomar distancia a mi idea inicial de estas mujeres como doblemente invisibilizadas conceptualizadas por Spivak
 
-Con el "sistema moderno colonial de género" de María Lugones, entiendo que la categoría "mujer" se construyó sobre un ideal blanco y europeo, y que género y clasificación racial se constituyen a la vez. Por eso las encomenderas ocupaban un lugar doble: minorizadas frente al varón de su clase, pero parte del polo dominante frente a las poblaciones indígenas y esclavizadas. Sumo la mirada de Silvia Rivera Cusicanqui sobre el colonialismo interno.
+Para ello, tomo el concepto del "sistema moderno colonial de género" trabajado por María Lugones, entiendo que la categoría "mujer" se construyó sobre un ideal blanco y europeo, y que género y clasificación racial se constituyen a la vez. Por eso las encomenderas ocupaban un lugar doble: minorizadas frente al varón de su clase, pero parte del polo dominante frente a las poblaciones indígenas y esclavizadas. Sumo la mirada de Silvia Rivera Cusicanqui sobre el colonialismo interno.
 
 De ahí sale un punto que quiero subrayar: su agencia no fue anticolonial ni emancipatoria. Con Saba Mahmood, la entiendo como una práctica situada, que buscaba afirmar su estatus y su linaje dentro de un orden que ellas mismas reproducían.
 

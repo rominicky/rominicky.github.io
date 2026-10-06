@@ -28,7 +28,7 @@ body,
 /* Texto general */
 .reveal p,
 .reveal li {
-  font-size: 1.1rem;
+  font-size: 1.25rem;
   color: #d9d9e6;
   line-height: 1.6;
 }
@@ -79,7 +79,7 @@ body,
 /* Código */
 .reveal code {
   font-family: 'SF Mono', 'Fira Code', monospace;
-  font-size: 0.9rem;
+  font-size: 1.1rem;
   background: rgba(255, 255, 255, 0.08);
   padding: 4px 6px;
   border-radius: 4px;

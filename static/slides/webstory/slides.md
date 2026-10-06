@@ -32,6 +32,7 @@
   </div>
 </div>
 </div>
+
 ---
 
 ## 2. Desde dónde miro y qué falta
@@ -85,23 +86,23 @@ Siglos XVI y principios del XVII, núcleo andino (Audiencias de Lima y Charcas),
 ##### Fragmentos del archivo colonial
 
 <div class="gallery">
-  <a href="/slides/webstory/images/ramirez.jpg" data-lightbox="docs" data-title="Informaciones de oficio y parte: María Ramírez, 1567">
-    <img src="/slides/webstory/images/ramirez.jpg" width="200">
+  <a href="images/ramirez.jpg" data-lightbox="docs" data-title="Informaciones de oficio y parte: María Ramírez, 1567">
+    <img src="images/ramirez.jpg" width="200">
   </a>
 
   <a href="images/jordana.jpg" data-lightbox="docs" data-title="Autos entre partes de Lima, Jordana Mejía, 1568">
     <img src="images/jordana.jpg" width="200">
   </a>
 
-  <a href="/slides/webstory/images/maria_martel.jpg" data-lightbox="docs" data-title="Informaciones de oficio y parte: María Martel, 1574-1575">
-    <img src="/slides/webstory/images/maria_martel.jpg" width="200">
+  <a href="images/maria_martel.jpg" data-lightbox="docs" data-title="Informaciones de oficio y parte: María Martel, 1574-1575">
+    <img src="images/maria_martel.jpg" width="200">
   </a>
 
-  <a href="/slides/webstory/images/de_ribera.jpg" data-lightbox="docs" data-title="Protocolos notariales - Obligación, Mariana de Ribera, 1599">
-    <img src="/slides/webstory/images/de_ribera.jpg" width="200">
+  <a href="images/de_ribera.jpg" data-lightbox="docs" data-title="Protocolos notariales - Obligación, Mariana de Ribera, 1599">
+    <img src="images/de_ribera.jpg" width="200">
   </a>
 
-  <a href="/slides/webstory/images/elvira-manrique.jpg" data-lightbox="docs" data-title="Pedro de Ucedo del Aguila, como albacea de don Alvaro de Chaves y en nombre de doña Elvira Manrique, doña Maria de Sotomayor, doña Catalina de Chaves y doña Elvira Menrique de Chaves, mujer e hijos de Nufmde Chaves, que por los servicios de este y de sus hijos don Alvaro y don Francisco de Chaves, y habiendo muerto estos, las mercedes que debian hacer a don Alvaro se hagan a doña Elvira y sus hijas, que se encuentran muy pobres, 1591">
+  <a href="images/elvira-manrique.jpg" data-lightbox="docs" data-title="Pedro de Ucedo del Aguila, como albacea de don Alvaro de Chaves y en nombre de doña Elvira Manrique, doña Maria de Sotomayor, doña Catalina de Chaves y doña Elvira Menrique de Chaves, mujer e hijos de Nufmde Chaves, que por los servicios de este y de sus hijos don Alvaro y don Francisco de Chaves, y habiendo muerto estos, las mercedes que debian hacer a don Alvaro se hagan a doña Elvira y sus hijas, que se encuentran muy pobres, 1591">
     <img src="/slides/webstory/images/elvira-manrique.jpg" width="200">
   </a>
 </div>
