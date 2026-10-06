@@ -51,7 +51,7 @@ body,
    Diapositivas
 ------------------------------------------------*/
 
-/* Más aire y tamaño tipo storytelling */
+/*  tamaño storytelling */
 .reveal .slides section {
   /* padding: 40px 60px; */
   backdrop-filter: blur(6px);
