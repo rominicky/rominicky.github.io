@@ -32,6 +32,7 @@
   </div>
 </div>
 </div>
+
 ---
 
 ## 2. Desde dónde miro y qué falta
