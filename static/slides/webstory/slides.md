@@ -19,15 +19,15 @@
 - **Dominantes:** controlaban el trabajo, el tributo y los cuerpos de pueblos encomendados y personas esclavizadas.
 
 <div class="gallery">
-<div style="display: flex; justify-content: center; gap: 30px; font-size: 0.9rem; margin-top: 10px;">
-  <div style="display: flex; flex-direction: column; align-items: center; width: 40%; text-align: center;">
+<div style="display: flex; justify-content: center; gap: 30px; font-size: 0.9rem; margin-top: 2px;">
+  <div style="display: flex; flex-direction: column; align-items: center; width: 25%; text-align: center;">
   <a href="https://upload.wikimedia.org/wikipedia/commons/0/04/Criollos-Espa%C3%B1oles_Per%C3%ACodo_Colonial_en_Am%C3%A9rica_(cropped)1.jpg" data-lightbox="docs"> 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Criollos-Espa%C3%B1oles_Per%C3%ACodo_Colonial_en_Am%C3%A9rica_(cropped)1.jpg" style="width: 55%;">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Criollos-Espa%C3%B1oles_Per%C3%ACodo_Colonial_en_Am%C3%A9rica_(cropped)1.jpg" style="width: 35%;">
     <em>Criollos y españoles en la sociedad estamental. <br> Dibujo de la crónica peruana de Felipe Guamán Poma de Ayala, siglo XVI.</em></a> 
   </div>
-  <div style="display: flex; flex-direction: column; align-items: center; width: 40%; text-align: center;">
+  <div style="display: flex; flex-direction: column; align-items: center; width: 25%; text-align: center;">
   <a href="https://www.memoriachilena.gob.cl/602/articles-100512_thumbnail.jpg" data-lightbox="docs">
-    <img src="https://www.memoriachilena.gob.cl/602/articles-100512_thumbnail.jpg" style="width: 55%; border: 1px solid #ccc;">
+    <img src="https://www.memoriachilena.gob.cl/602/articles-100512_thumbnail.jpg" style="width: 35%;">
     <em>El corregidor de minas castiga cruelmente a los caciques principales. <br>Felipe Guamán Poma de Ayala (1615).</em></a>
   </div>
 </div>

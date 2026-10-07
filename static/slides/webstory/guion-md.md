@@ -36,7 +36,7 @@ Hoy en día, la digitalización masiva de repositorios como PARES o el Archivo G
 
 La primera es material: la letra procesal encadenada del siglo XVI, que hace costosa incluso la lectura básica. para ello me he formado endeiversos cursos en paleografía,
 
-La segunda es discursiva. Como dice Arlette Farge, el archivo no es un depósito neutro, es un dispositivo de poder. La administración indiana no tenía un vocabulario para registrar la acción de las mujeres de manera autónoma. Probanzas de méritos y expedientes construían la legitimidad del "yo conquistador", como lo plantea Dussel, y ellas aparecen como hijas, esposas o viudas-->subalternidad archivística.
+La segunda es discursiva. Como dice Arlette Farge, el archivo no es un depósito neutro, es un dispositivo de poder. La administración indiana no tenía un vocabulario para registrar la acción de las mujeres de manera autónoma. Probanzas de méritos y expedientes construían la legitimidad del "yo conquistador", como lo plantea Enrique Dussel, y ellas aparecen como hijas, esposas o viudas-->subalternidad archivística.
 
 La propuesta metodológica del anteproyecto para mi tesis doctoral extiende su análisis a fuentes del siglo XVI y principios del XVII, y se amplía geográficamente hacia el sur del Virreinato. Esto es lo que ya tengo trabajado y lo que propongo para la tesis.
 
@@ -48,7 +48,7 @@ Concretamente, el recorte es el de los siglos XVI y principios del XVII, con un 
 
 ### 4.1
 
-En pantalla ven fragmentos del archivo colonial: las informaciones de oficio y parte de María Ramírez, de 1567; los autos entre partes de Lima de Jordana Mejía, de 1568; las informaciones de María Martel, de 1574-1575; la obligación de Mariana de Ribera, de 1599; y el expediente de Elvira Manrique de Chaves, de 1591.
+En pantalla ven fragmentos del archivo colonial: las informaciones de oficio y parte de María Ramírez, de 1567; los autos entre partes de Lima de Jordana Mejía, de 1568; las informaciones de María Martel, de 1574-1575; la obligación de Mariana de Ribera, de 1599; y el expediente de Elvira Manrique de Chaves, de 1591. **Gaspar García Viñas **
 
 ## Slide 5: Problemas metodológicos a resolver
 
