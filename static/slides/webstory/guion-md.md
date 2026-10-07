@@ -4,15 +4,17 @@
 
 Avances de mi investigación, actualmente como anteproyecto doctoral, donde estudiaré a las mujeres encomenderas del Virreinato del Perú, entre los siglos XVI y principios del XVII, y propongo una pregunta metodológica: ¿qué cambia en nuestra comprensión de estas mujeres si pasamos de la lectura de casos individuales a una lectura relacional y a escala, con herramientas de las Humanidades Digitales?
 
-Mi pregunta central es esta: ¿cómo ejerce autoridad quien ocupa, al mismo tiempo, una posición de subordinación y una de dominio? Las encomenderas eran mujeres bajo la subordinación de padres, maridos o albaceas, pero a la vez controlaban el trabajo, el tributo y los cuerpos de comunidades indígenas y de personas esclavizadas.
-Mi propuesta es un puente: partir de la lectura a contrapelo, y escalar hacia el análisis relacional que habilitan las Humanidades Digitales.
+Mi pregunta central es esta: ¿cómo ejerce autoridad quien ocupa, al mismo tiempo, una posición de subordinación y una de dominio?
+Las encomenderas eran mujeres bajo la subordinación de padres, maridos o etc, pero a la vez controlaban el trabajo, el tributo y los cuerpos de comunidades originarias y de personas esclavizadas.
+Mi propuesta funciona como puente que parte de la lectura a contrapelo, y de forma escalar hacia el análisis relacional que habilitan las Humanidades Digitales.
+
 Las dos imágenes de Guamán Poma de Ayala ilustran esa tensión: a la izquierda, criollos y españoles en la sociedad estamental; a la derecha, un corregidor de minas castigando a los caciques principales.
 
 ## Slide 2: Desde dónde miro y qué falta
 
 En lo que respecta a mi idea de paradoja, necesito una distinción conceptual precisa. Estas mujeres estaban subordinadas al patriarcado hispánico, pero no eran subalternas en términos estructurales, acá debo tomar distancia a mi idea inicial de estas mujeres como doblemente invisibilizadas conceptualizadas por Gayatri Spivak.
 
-Para ello, tomo el concepto del "sistema moderno colonial de género" trabajado por María Lugones, entiendo que la categoría "mujer" se construyó sobre un ideal blanco y europeo, y que género y clasificación racial se constituyen a la vez. Por eso las encomenderas ocupaban un lugar doble: minorizadas frente al varón de su clase, pero parte del polo dominante frente a las poblaciones indígenas y esclavizadas.Sumo la mirada de Silvia Rivera Cusicanqui sobre el colonialismo interno.
+Para ello, tomo el concepto del "sistema moderno colonial de género" trabajado por María Lugones, entiendo que la categoría "mujer" se construyó sobre un ideal blanco y europeo, y que género y clasificación racial se constituyen a la vez. Por eso las encomenderas ocupaban un lugar doble: minorizadas frente al varón de su clase, pero parte del polo dominante frente a las poblaciones indígenas y esclavizadas.Sumo la mirada de Silvia Rivera Cusicanqui sobre el colonialismo interno **una estructura de dominación heredada de la época colonial que persiste dentro de los Estados-nación latinoamericanos**.
 
 De ahí sale un punto que quiero subrayar: su agencia no fue anticolonial ni emancipatoria. Con Saba Mahmood, la entiendo como una práctica situada, que buscaba afirmar su estatus y su linaje dentro de un orden que ellas mismas reproducían.
 
@@ -22,17 +24,17 @@ De ahí sale un punto que quiero subrayar: su agencia no fue anticolonial ni ema
 
 Mi pregunta directriz es la que planteé al inicio. De ella derivo otras dos: ¿qué relaciones se tejieron entre mujeres de distintas jerarquías y condiciones raciales? Y ¿cómo influyó la religión en su agencia?
 
-Mi propuesta es un puente: partir de la lectura a contrapelo, y escalar hacia el análisis relacional que habilitan las Humanidades Digitales.
+Esta propuesta busca rastrear estas voces,leyendo a contrapelo, y desde el paradigma indicial de Carlo Ginzburg, podemos buscar en los márgenes del documento la presencia activa que el propio documento intenta subordinar.
 
-Aun así, sus voces pueden rastrearse. Leyendo a contrapelo, y con el paradigma indicial de Carlo Ginzburg, podemos buscar en los márgenes del documento la presencia activa que el propio documento intenta subordinar.
+### 3. 1
 
-Mi hipótesis es que combinar lectura cercana y lectura distante permitirá superar la lógica de casos individuales y comprender cómo estas mujeres, desde su posición subordinada al orden social, económico y religioso hispánico, lograron, en los márgenes y los intersticios de esta sociedad, constituirse como agentes estructurantes de poder político, económico y social. Buscaré evidenciarlo comprobando la coacción y la administración sobre las poblaciones racializadas, originarias y esclavizadas, a través de diversas fuentes.
+Mi **hipótesis** es que combinar lectura cercana y lectura distante permitirá superar la lógica de casos individuales y comprender cómo estas mujeres, desde su posición subordinada al orden social, económico y religioso hispánico, lograron, en los márgenes y los intersticios de esta sociedad, constituirse como agentes estructurantes de poder político, económico y social. Buscaré evidenciarlo comprobando la coacción y la administración sobre las poblaciones racializadas, originarias y esclavizadas, a través de diversas fuentes.
 
 ## Slide 4: Archivos y recorte
 
 Hoy en día, la digitalización masiva de repositorios como PARES o el Archivo General de la Nación del Perú nos dan una sensación de inmediatez: el documento está a un clic. Pero esa transparencia es una ilusión, porque hay dos barreras.
 
-La primera es material: la letra procesal encadenada del siglo XVI, que hace costosa incluso la lectura básica.
+La primera es material: la letra procesal encadenada del siglo XVI, que hace costosa incluso la lectura básica. para ello me he formado endeiversos cursos en paleografía,
 
 La segunda es discursiva. Como dice Arlette Farge, el archivo no es un depósito neutro, es un dispositivo de poder. La administración indiana no tenía un vocabulario para registrar la acción de las mujeres de manera autónoma. Probanzas de méritos y expedientes construían la legitimidad del "yo conquistador", como lo plantea Dussel, y ellas aparecen como hijas, esposas o viudas-->subalternidad archivística.
 
@@ -44,13 +46,15 @@ El corpus reúne probanzas de méritos y servicios, litigios sobre repartimiento
 
 Concretamente, el recorte es el de los siglos XVI y principios del XVII, con un núcleo andino en las Audiencias de Lima y Charcas, y una proyección comparada hacia el sur del Virreinato, en Tucumán, Paraguay y Córdoba, donde la encomienda tuvo mutaciones.
 
+### 4.1
+
 En pantalla ven fragmentos del archivo colonial: las informaciones de oficio y parte de María Ramírez, de 1567; los autos entre partes de Lima de Jordana Mejía, de 1568; las informaciones de María Martel, de 1574-1575; la obligación de Mariana de Ribera, de 1599; y el expediente de Elvira Manrique de Chaves, de 1591.
 
 ## Slide 5: Problemas metodológicos a resolver
 
 Para procesar este volumen uso reconocimiento de texto manuscrito con Transkribus y extracción de datos estructurados con modelos de lenguaje locales. Pero acá la Historia Digital exige rigor crítico, porque la máquina no conoce la genealogía colonial.
 
-Tres ejemplos reales de mi corpus. Un modelo sin contexto leyó "mexico"; la revisión paleográfica restituyó "Mendoça", y la figura no era un clérigo sino Joan de Mendoça, marido de Mariana de Ribera. En otro folio, la IA inventó un nombre como "Geronimo" o "Raul" al inicio de una línea; era una "y" que venía de la página anterior, seguida de "Gaspar". Y para confirmar que Juan Sierra de Leguizamo era marido de María Ramírez, crucé los datos con PARES.
+**Tres ejemplos reales de mi corpus. Un modelo sin contexto leyó "mexico"; la revisión paleográfica restituyó "Mendoça", y la figura no era un clérigo sino Joan de Mendoça, marido de Mariana de Ribera. En otro folio, la IA inventó un nombre como "Geronimo" o "Raul" al inicio de una línea; era una "y" que venía de la página anterior, seguida de "Gaspar". Y para confirmar que Juan Sierra de Leguizamo era marido de María Ramírez, crucé los datos con PARES.**
 
 Transcribir, normalizar nombres y categorizar atributos son decisiones hermenéuticas, no pasos técnicos neutros. Por eso el "human in the loop" es irremplazable. Siguiendo a Johanna Drucker, lo que produzco no es data, dato dado, sino capta: datos construidos e interpretados.
 
