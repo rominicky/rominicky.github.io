@@ -1,12 +1,12 @@
-## Encomenderas, mediación y poder en el ámbito colonial andino (siglos XVI-XVII)
+## Voces veladas: Mujeres, Humanidades Digitales y el archivo colonial en los albores del Virreinato del Perú (siglo XVI)
 
-### De la microhistoria a la Historia Digital
+#### Avances de investigación
 
 ##### [Romina De León](romideleon@gmail.com)
 
 <div style="display: flex; justify-content: center; align-items: center; gap: 40px; margin-top: 20px;">
-  <img src="images/conicet.jpg" style="width: 26%;">
-  <img src="images/genera-logo.png" style="width: 25%;">
+  <!-- <img src="images/conicet.jpg" style="width: 26%;"> -->
+  <img src="images/logo_hdlab_iibicrit.png" style="width: 25%;">
 </div>
 
 ---
@@ -35,19 +35,29 @@
 
 ---
 
-## 2. Desde dónde miro y qué falta
+## 2. Complemento el trabajo histórico con herramientas digitales
 
-- **Género y colonialidad**
-- **Subordinadas, no subalternas**
-- **Agencia situada** y **lectura a contrapelo**: ni anticolonial ni emancipatoria.
-- **Lo que hay:** biografías y casos puntuales:
-  - María Rostworowski
-  - Liliana Pérez Miguel
-  - Ana María Presta
-  - Zambrano Cardona, entre otrxs.
-  - Proyectos digitales descriptivos y espaciales.
+- **Metodologías de las Ciencias Sociales Computacionales**
+- **Procesamiento del Lenguaje Natural (NLP)**
 
-**Vacío:** falta una mirada **relacional** sobre los vínculos de estas mujeres con pares, administración y poblaciones racializadas.
+Diferentes herramientas que me permitirán llenar un **vacío:** falta una mirada **relacional** sobre los vínculos de estas mujeres con pares, administración y poblaciones racializadas.
+grafico de redes
+
+- hablar sobre las variaciones delas fuentes, geográficos, lugares, apellidos, para pasar a hablar de las formas de normalizacion que hice a los diccionarios de stopwords
+
+- porblema de lectura paleográfica y la normalizacion que debo hacer al realizar una trasncripcion diplomática, o modernizada.
+
+- ner
+
+sumar imagen de la notebook y la construccion de los diccionarios
+
+- además de los diccionarios que deberé armar para evaluar conflictos, puevlos originarios, vocabulario pertinente a cada tipo de fuentes, recordar que tipo de fuentes tengo.
+
+- otra cuestion a destacar es que la mayoría que aparece en la AGI digitalizado es porque alguien ya lo pidio/ trabajo
+
+- analisis estadistico del corpus
+
+- actualmente es un avance, ya que hasta ahora recolecté X documentos, pero tengo Y para trascrribir y eso es el primer limitante /
 
 ---
 
