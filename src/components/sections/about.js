@@ -18,10 +18,11 @@ const StyledAboutSection = styled.section`
     }
   }
 `;
+
 const StyledText = styled.div`
   ul.skills-list {
     display: grid;
-    grid-template-columns: repeat(2, minmax(140px, 200px));
+    grid-template-columns: repeat(2, minmax(140px, 220px));
     grid-gap: 0 10px;
     padding: 0;
     margin: 20px 0 0 0;
@@ -45,7 +46,17 @@ const StyledText = styled.div`
       }
     }
   }
+
+  .academic-links {
+    margin-top: 15px;
+    font-size: var(--fz-sm);
+
+    a {
+      font-family: var(--font-mono);
+    }
+  }
 `;
+
 const StyledPic = styled.div`
   position: relative;
   max-width: 300px;
@@ -123,17 +134,18 @@ const About = () => {
     }
 
     sr.reveal(revealContainer.current, srConfig());
-  }, []);
+  }, [prefersReducedMotion]);
 
+  // Habilidades reorganizadas reflejando tu stack humanístico-computacional
   const skills = [
-    'HTML & CSS',
-    'JavaScript (ES6+)',
-    'YAML / Liquid',
-    'Jekyll',
-    'React / Gatsby',
-    'Git / GitHub',
-    'Python / Jupyter',
-    'R / Quarto',
+    'R (stylo, tidytext, ggplot2)',
+    'Python (pandas, geopandas)',
+    'Jekyll / Minimal Computing',
+    'CollectionBuilder / Repositorios',
+    'React / Gatsby / JavaScript',
+    'SIG / QGIS / Leaflet',
+    'Análisis de Redes (Gephi / Sigma.js)',
+    'Git / GitHub Pages',
   ];
 
   return (
@@ -144,31 +156,27 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hola! Soy Romina, profesional adjunto de la carrera CPA de CONICET y docente
-              universitaria especializada en Humanidades Digitales. Trabajo en la intersección entre
-              las humanidades digitales, el desarrollo web y la publicación académica abierta. Me
-              apasiona crear plataformas interactivas que hagan accesibles los resultados de
-              investigación y exploren nuevas formas de narrar con datos históricos. Mi interés por
-              el desarrollo web y el análisis de datos surgió junto con mis proyectos académicos,
-              donde comencé a construir herramientas para explorar, visualizar y publicar fuentes
-              históricas.
-            </p>
-            <p>
-              En los últimos años desarrollé diversos sitios de acceso abierto y visualizaciones
-              interactivas para la comunicación científica, utilizando tecnologías como Gatsby,
-              Jekyll, Leaflet, Quarto y sigma.js. Me interesan especialmente las narrativas
-              espaciales, la visualización de redes históricas y las prácticas de investigación
-              reproducibles.
+              ¡Hola! Soy Romina De León, historiadora (UBA), Profesional Adjunta de la carrera CPA
+              de CONICET en el Laboratorio de Investigación en Humanidades Digitales (HD LAB,
+              IIBICRIT) y especialista en Ciencias Sociales Computacionales (UNaB).
             </p>
 
             <p>
-              Mi portfolio académico en{' '}
-              <a href="https://rominicky.github.io" target="_blank" rel="noopener noreferrer">
-                rominicky.github.io
-              </a>
+              Mi trabajo se sitúa en el cruce entre la historia colonial, las ciencias sociales
+              computacionales, la edición digital académica y el desarrollo web de acceso abierto.
+              Me apasiona aplicar métodos de lectura distante, estilometría, análisis de redes
+              discursivas y mapas históricos (GIS/SIG) para explorar fuentes primarias, visibilizar
+              voces veladas en los archivos e investigar el período colonial hispanoamericano.
+            </p>
+
+            <p>
+              Bajo los principios de <em>minimal computing</em> y ciencia abierta, diseño
+              plataformas interactivas, ediciones digitales de documentos y flujos de trabajo
+              reproducibles que conectan la investigación académica con el desarrollo de
+              herramientas web.
             </p>
             <p>
-              Mi producción académica se encuentra disponible en{' '}
+              Podés consultar mi perfil institucional y producción académica en{' '}
               <a
                 href="https://www.conicet.gov.ar/new_scp/detalle.php?keywords=&id=25837&datos_academicos=yes"
                 target="_blank"
@@ -179,15 +187,18 @@ const About = () => {
               <a href="https://aacademica.org/rodeleon" target="_blank" rel="noopener noreferrer">
                 Acta Académica
               </a>
-              , presentado mis trabajos sobre medios impresos, redes culturales, ciencia abierta y
-              métodos digitales aplicados a las humanidades.
+              y mi portfolio de proyectos en{' '}
+              <a href="https://rominicky.github.io" target="_blank" rel="noopener noreferrer">
+                rominicky.github.io
+              </a>
             </p>
 
             <p>Estas son algunas de las tecnologías que utilizo actualmente:</p>
           </div>
-
           <ul className="skills-list">
-            {skills && skills.map((skill, i) => <li key={i}>{skill}</li>)}
+            {skills.map(skill => (
+              <li key={skill}>{skill}</li>
+            ))}
           </ul>
         </StyledText>
 
@@ -199,7 +210,7 @@ const About = () => {
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
-              alt="Headshot"
+              alt="Fotografía de Romina De León"
             />
           </div>
         </StyledPic>
