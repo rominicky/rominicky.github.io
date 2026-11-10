@@ -1,198 +1,205 @@
 ## Voces veladas: Mujeres, Humanidades Digitales y el archivo colonial en los albores del Virreinato del Perú (siglo XVI)
 
-#### Avances de investigación
+#### [Romina De León](romideleon@gmail.com)
 
-##### [Romina De León](romideleon@gmail.com)
-
-<div style="display: flex; justify-content: center; align-items: center; gap: 40px; margin-top: 20px;">
-  <!-- <img src="images/conicet.jpg" style="width: 26%;"> -->
-  <img src="images/logo_hdlab_iibicrit.png" style="width: 25%;">
+<div style="display: flex; justify-content: center; gap: 40px; margin-top: 18px;">
+  <img src="https://rominicky.github.io/slides/webstory/images/conicet.jpg" style="width: 18%;">
+  <img src="https://rominicky.github.io/slides/webstory/images/genera-logo.png" style="width: 18%;">
 </div>
 
 ---
 
-## 1. La paradoja estructural del poder femenino en el Virreinato del Perú
+## 1. La paradoja del poder femenino colonial
 
-¿Cómo ejerce autoridad y administra poder una mujer que, dentro de la sociedad hispánica, ocupa **a la vez** una posición de subordinación y una de dominio?
+¿Cómo ejerce autoridad **quien ocupa, simultáneamente, una posición de subordinación y una de dominio sociorracial**?
 
-- **Subordinadas:** bajo la tutela legal de padres, maridos o albaceas.
-- **Dominantes:** controlaban el trabajo, el tributo y los cuerpos de pueblos encomendados y personas esclavizadas.
+<div class="panel">
+<ul>
+  <li><b>Subordinadas</b>: bajo la tutela legal de padres, maridos o albaceas (Mannarelli).</li>
+  <li><b>Dominantes</b>: controlaban el trabajo, el tributo y los cuerpos de pueblos encomendados y personas esclavizadas.</li>
+</ul>
+</div>
 
-<div class="gallery">
-<div style="display: flex; justify-content: center; gap: 30px; font-size: 0.9rem; margin-top: 2px;">
-  <div style="display: flex; flex-direction: column; align-items: center; width: 25%; text-align: center;">
-  <a href="https://upload.wikimedia.org/wikipedia/commons/0/04/Criollos-Espa%C3%B1oles_Per%C3%ACodo_Colonial_en_Am%C3%A9rica_(cropped)1.jpg" data-lightbox="docs"> 
-    <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Criollos-Espa%C3%B1oles_Per%C3%ACodo_Colonial_en_Am%C3%A9rica_(cropped)1.jpg" style="width: 35%;">
-    <em>Criollos y españoles en la sociedad estamental. <br> Dibujo de la crónica peruana de Felipe Guamán Poma de Ayala, siglo XVI.</em></a> 
-  </div>
-  <div style="display: flex; flex-direction: column; align-items: center; width: 25%; text-align: center;">
+**Antecedente empírico**: la edición digital y el marcado manual de entidades que reveló la "triangulación legal" de Elvira Manrique de Chaves a través de mediadores varones — la antesala de estas preguntas sobre las encomenderas.
+
+<div class="gallery gallery-row">
+<div class="gallery-col">
+  <a href="https://upload.wikimedia.org/wikipedia/commons/0/04/Criollos-Espa%C3%B1oles_Per%C3%ACodo_Colonial_en_Am%C3%A9rica_%28cropped%291.jpg" data-lightbox="docs">
+    <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Criollos-Espa%C3%B1oles_Per%C3%ACodo_Colonial_en_Am%C3%A9rica_%28cropped%291.jpg" style="width: 60%;">
+    <em>Criollos y españoles en la sociedad estamental.<br>Felipe Guamán Poma de Ayala, siglo XVI.</em></a>
+</div>
+<div class="gallery-col">
   <a href="https://www.memoriachilena.gob.cl/602/articles-100512_thumbnail.jpg" data-lightbox="docs">
-    <img src="https://www.memoriachilena.gob.cl/602/articles-100512_thumbnail.jpg" style="width: 35%;">
-    <em>El corregidor de minas castiga cruelmente a los caciques principales. <br>Felipe Guamán Poma de Ayala (1615).</em></a>
-  </div>
+    <img src="https://www.memoriachilena.gob.cl/602/articles-100512_thumbnail.jpg" style="width: 60%;">
+    <em>El corregidor castiga cruelmente a los caciques principales.<br>Guamán Poma de Ayala (1615).</em></a>
 </div>
 </div>
 
----
-
-## 2. Complemento el trabajo histórico con herramientas digitales
-
-- **Metodologías de las Ciencias Sociales Computacionales**
-- **Procesamiento del Lenguaje Natural (NLP)**
-
-Diferentes herramientas que me permitirán llenar un **vacío:** falta una mirada **relacional** sobre los vínculos de estas mujeres con pares, administración y poblaciones racializadas.
-grafico de redes
-
-- hablar sobre las variaciones delas fuentes, geográficos, lugares, apellidos, para pasar a hablar de las formas de normalizacion que hice a los diccionarios de stopwords
-
-- porblema de lectura paleográfica y la normalizacion que debo hacer al realizar una trasncripcion diplomática, o modernizada.
-
-- ner
-
-sumar imagen de la notebook y la construccion de los diccionarios
-
-- además de los diccionarios que deberé armar para evaluar conflictos, puevlos originarios, vocabulario pertinente a cada tipo de fuentes, recordar que tipo de fuentes tengo.
-
-- otra cuestion a destacar es que la mayoría que aparece en la AGI digitalizado es porque alguien ya lo pidio/ trabajo
-
-- analisis estadistico del corpus
-
-- actualmente es un avance, ya que hasta ahora recolecté X documentos, pero tengo Y para trascrribir y eso es el primer limitante /
+<aside class="notes">La pregunta es la directriz del anteproyecto, con su clave "sociorracial" (Lugones: sistema moderno colonial de género). La agencia no es emancipatoria ni anticolonial: es una práctica situada (Mahmood) que negocia y reproduce el orden — voces veladas, no silenciadas: subalternidad archivística (Spivak), porque el archivo no tenía vocabulario institucional para registrarlas.</aside>
 
 ---
 
-## 3. Problemas e hipótesis
+## 2. Archivo y recorte
 
-**Pregunta directriz:**
+- **Archivo General de la Nación del Perú (Archivo Histórico Digital)** y **Archivo General de Indias (Sevilla)**: informaciones de oficio y parte, protocolos notariales de Lima (pagos, obligaciones, depósitos, poderes) — la fase de consolidación y disputa de la **perpetuidad** de la encomienda (1560–1620).
+- **Tres encomenderas documentadas entre 1567 y 1608**: María Ramírez, María Martel y Mariana de Ribera.
+- **Proyección comparada hacia el sur** del virreinato (Tucumán, Paraguay, Córdoba): la _asincronía regional_ de la encomienda de servicio personal como dato analítico.
+- Corpus depurado: **solo transcripciones revisadas** (HTR con Transkribus + cotejo manual) integran el análisis.
 
-- ¿Cómo ejerce autoridad quien ocupa simultáneamente una posición de subordinación y una de dominio?
-
-Preguntas derivadas:
-
-- ¿Qué relaciones se tejieron entre mujeres de distintas jerarquías y condiciones raciales?
-- ¿Cómo influyó la religión en su agencia?
-
---
-
-##### Hipótesis
-
-Combinar lectura cercana y lectura distante permitirá superar la lógica de casos individuales y comprender como estas mujeres, desde su posición subordinada al orden social, económico y religioso hispánico, lograron, **en los márgenes y los intersticios** de esta sociedad, constituirse como **agentes estructurantes de poder político, económico y social**. Se buscará evidenciarlo, comprobando la coacción y administración en las poblaciones racializadas, originarios y esclavizados, a través de diversas fuentes.
-
----
-
-## 4. Archivos y recorte
-
-- Archivo General de las Indias (Probanzas de bienes y servicios; Testamentos, bienes de difuntos; Expedientes judiciales)
-- Fondo Documental del Archivo General de la Nación del Perú - Archivo Histórico Digital del Archivo General de la Nación
-- Archivo y Biblioteca Nacionales de Bolivia
-- Censos (Aún no encontré y tampoco estoy segura si será relevante)
-- Cartas y peticiones (Igual que el anterior)
-
-**Recorte temporal y geográfico**
-Siglos XVI y principios del XVII, núcleo andino (Audiencias de Lima y Charcas), con **proyección comparada hacia el sur del Virreinato** (Tucumán, Paraguay, Córdoba), donde la encomienda tuvo mutaciones.
-
---
-
-##### Fragmentos del archivo colonial
-
-<div class="gallery">
-  <a href="images/ramirez.jpg" data-lightbox="docs" data-title="Informaciones de oficio y parte: María Ramírez, 1567">
-    <img src="images/ramirez.jpg" width="200">
-  </a>
-
-  <a href="images/jordana.jpg" data-lightbox="docs" data-title="Autos entre partes de Lima, Jordana Mejía, 1568">
-    <img src="images/jordana.jpg" width="200">
-  </a>
-
-  <a href="images/maria_martel.jpg" data-lightbox="docs" data-title="Informaciones de oficio y parte: María Martel, 1574-1575">
-    <img src="images/maria_martel.jpg" width="200">
-  </a>
-
-  <a href="images/de_ribera.jpg" data-lightbox="docs" data-title="Protocolos notariales - Obligación, Mariana de Ribera, 1599">
-    <img src="images/de_ribera.jpg" width="200">
-  </a>
-
-  <a href="images/elvira-manrique.jpg" data-lightbox="docs" data-title="Pedro de Ucedo del Aguila, como albacea de don Alvaro de Chaves y en nombre de doña Elvira Manrique, doña Maria de Sotomayor, doña Catalina de Chaves y doña Elvira Menrique de Chaves, mujer e hijos de Nufmde Chaves, que por los servicios de este y de sus hijos don Alvaro y don Francisco de Chaves, y habiendo muerto estos, las mercedes que debian hacer a don Alvaro se hagan a doña Elvira y sus hijas, que se encuentran muy pobres, 1591">
-    <img src="/slides/webstory/images/elvira-manrique.jpg" width="200">
-  </a>
+<div class="gallery" style="display: flex; justify-content: center; gap: 24px; margin-top: 14px;">
+  <a href="https://rominicky.github.io/slides/webstory/images/ramirez.jpg" data-lightbox="docs" data-title="Informaciones de oficio y parte: María Ramírez, 1567 (AGI)">
+    <img src="https://rominicky.github.io/slides/webstory/images/ramirez.jpg" width="230"></a>
+  <a href="https://rominicky.github.io/slides/webstory/images/maria_martel.jpg" data-lightbox="docs" data-title="Informaciones de oficio y parte: María Martel, 1574-1575 (AGI)">
+    <img src="https://rominicky.github.io/slides/webstory/images/maria_martel.jpg" width="230"></a>
+  <a href="https://rominicky.github.io/slides/webstory/images/de_ribera.jpg" data-lightbox="docs" data-title="Protocolos notariales: Obligación, Mariana de Ribera, 1599">
+    <img src="https://rominicky.github.io/slides/webstory/images/de_ribera.jpg" width="230"></a>
 </div>
 
----
-
-## 5. Problemas metodológicos a resolver
-
-- **Fuentes no digitalizadas**: Acervos clave (ej. AGN Bolivia) que requieren trabajo _in situ_.
-- **Lectura paleográfica hermenéutica:** Dificultad técnica de la letra procesal encadenada y sesgo burocrático de la Corona.
-- **Transcripción asistida (HTR)**, por ejemplo con Transkribus.
-- **Herramientas computacionales:** Evaluar la arquitectura digital para el análisis macro de estas fuentes.
-
---
-
-##### El cruce digital: Redes de vínculos y personajes
-
-Siguiendo a Drucker, lo que se produce no es _data_ sino **_capta_**: datos construidos e interpretados.
-
-**Historia digital, no solo historia por medios digitales** (Noiret): lo digital reescribe el método. **Minimal computing:** código abierto, bajo costo y formatos portables.
-
-<iframe 
-  src="https://hdlab.space/viaje-al-rio-de-la-plata/sigma-viz/index.html#%C3%81lvar%20N%C3%BA%C3%B1ez%20Cabeza%20de%20Vaca"
-  width="100%"
-  height="425"
-  style="border: none; border-radius: 6px; margin-top: 20px;">
-</iframe>
+<aside class="notes">Subrayar la doble naturaleza del corpus: documentos biográfico-probatorios (informaciones) y documentos económicos (protocolos notariales). Esa diferencia de género documental reaparece en los resultados. Y la tesis del anteproyecto: la documentación tiene opacidad constitutiva, en documentos que se estructuran en clave masculina ("yo conquistador", Dussel) — por eso la evaluación debe computar lo que el archivo no dice.</aside>
 
 ---
 
-## 6. Mis voces veladas
+## 3. Del manuscrito al dataset
 
-#### Mi primer acercamiento: Elvira Manrique de Chaves
+<div class="cols">
+<div>
 
-1591, Archivo General de Indias / Simancas. Información de méritos y servicios del general Ñuflo de Chaves y sus hijos (1580-1616). Viuda del <span class="tooltip">gobernador<span class="tooltip-text">Ñuflo de Chaves fundador de Santa Cruz de la Sierra en</span></span>, quedó en una declarada necesidad extrema. Sin embargo, ejerció una activa triangulación legal, pues sus hijos Francisco y Álvaro, quienes también prestaron servicios a la Corona, y murieron sin descencia, continuaron las campañas militares, por ello, reclamó mercedes y rentas ante la Corona mediante mediadores varones (como el albacea Pedro de Voedo) para asegurar el sustento de su linaje femenino.
+**Del papel al texto**
 
---
+- Paleografía manual + **HTR con Transkribus** + cotejo con la imagen.
+- Se excluyen las transcripciones sin revisar: **la calidad de los datos es parte del método**.
+- `docx → txt` → tibble ordenado **párrafo por párrafo**, con metadatos trazables.
 
-#### María Ramírez
+</div>
+<div>
 
-1567, Archivo General de Indias. Sección: Gobierno. [1ª División] Audiencia de Lima. [Fracción de Serie-Unidad de Instalación] Informaciones de oficio y parte. También consta su marido, <span class="tooltip">Juan Sierra de Leguizamo<span class="tooltip-text">Podría tratarse del hijo de Mancio Sierra y de Doña Beatriz Coya</span></span>
+**El corpus en números**
 
---
+- <b>6.316</b> párrafos anotados
+- <b>23.823</b> tokens · <b>6.941</b> formas únicas
+- <b>12</b> documentos · <b>3</b> encomenderas
+- Cada párrafo conserva: archivo, tipo documental, marcadores de <b>conflicto</b>, <b>pueblos originarios</b>, <b>sentimiento</b> y entidades.
 
-#### María Martel
+</div>
+</div>
 
-Encomendera de los indios Laraos y Mancos. Constan también su padre Alonso Pérez Martel, su primer marido Francisco de Herrera, su segundo marido Hernando Martel de Mosquera y su hermano Bernardino Martel. Información contenida: 1574-1575, Archivo General de Indias, [Sección] Gobierno, [1ª División] Audiencia de Lima. [Fracción de Serie-Unidad de Instalación] Informaciones de oficio y parte.
+<div class="fuente">Pipeline en Python: python-docx, pandas, diccionarios de normalización propios; exportación a CSV reutilizable (R, Gephi, QGIS).</div>
 
---
-
-#### Mariana de Ribera
-
-1601, vecina de Lima, con poder de su esposo, encomendera en el pueblo de Magdalena y su fiador, se obligan pagar el cacique e indios del pueblo de Magdalena, cantidad de pesos, por especies varias que los indios les están obligados entregar tanto a ella como a Juan de Isásaga, por ser encomenderos de dicho pueblo.
-
---
-
-#### Jordana Mejía
-
-1568, Beatriz de Ysasaga, vecina de Trujillo, como viuda del capitán Garci Holguín, interpone ante el Consejo recurso de segunda suplicación de la sentencia dictada por la Audiencia de Lima en el pleito que contra ella ha seguido Jordana Mejía, de la misma vecindad, como viuda del Comendador Melchor Verdugo, de la Orden de Santiago, sobre el cumplimiento de una ejecutoria del Consejo, ganada por la citada Beatriz Ysasaga en el pleito que habían seguido los dichos sus maridos sobre la posesión de los indios de las parcialidades de Bambamarca, Pomamarca y el Chondal, en la provincia de Cajamarca.
-
---
-
-#### Petronila de Castro
-
-Encomienda heredada de su marido, Juan de Cianca. Luego contrae nupcias con Juan de Villanueva. En 1560 tiene una disputa con Pedro de Zárate, no puede acceder a las fuentes porque no están digitalizadas. Sin embargo para 1581 está casada con Pedro de Zárate. La disputa está en Escrituras Públicas del Arc. Nac. de Bolivia, La Plata 1560. 1581 Confirmación de la encomienda otorgada a Juan de VIllanueva.
+<aside class="notes">La unidad de análisis no es el documento sino el párrafo: eso permite comparar géneros documentales y detectar fisuras dentro del mismo expediente. La delegación parcial de la lectura a las máquinas habilita la lectura simultánea de múltiples archivos y la detección de recurrencias sintácticas y patrones relacionales a otra escala.</aside>
 
 ---
 
-## 7. Del caso a la red - Hacia el macroanálisis
+## 4. Normalizar el español del siglo XVI
 
-La lectura cercana restituye la voz de una encomendera en un expediente. Para detectar **patrones en muchas encomiendas y vínculos** hace falta otra escala: lectura distante (Moretti) y macroanálisis (Jockers). Las máquinas leen a escala; la interpretación histórica sigue siendo humana.
+<div class="transcripcion">[f3] mancomunidad obligamos nuestras perssonas e bienes sa[bidos¿] e por aver e damos poder a las justicias de su Majestad para su execuçion e [cumplimiento??] ... e por la <b>dha doña Mariana de Rribera</b> e rrenunçia al benefi- cio [?feliano..?]</div>
 
-Mediante la estructuración de _capta_ en TEI-XML, la transcripción asistida (HTR), si es que los modelos son efectivos, a través de un posterior análisis textual estadístico de datos en R/Python, que permitirán generar visualizaciones de grafos (Gephi / Sigma.js), proyecto modelar **una red más acabada de un corpus doctoral**.
+<div class="transcripcion" style="margin-top: 10px; border-left-color: #7fd4ff;">→ mancomunidad obligamos perssonas bienes sabidos aver damos justicias majestad execucion ... doña mariana ribera rrenuncia ...</div>
 
-Cada unos de estos nodos y aristas revelarán simultáneamente sus vínculos _hacia arriba_ (alianzas y mediadores judiciales) y _hacia abajo_ (administración coactiva de los pueblos originarios y esclavizados).
+- Diccionario de **arcaísmos y abreviaturas notariales** (fazer→hacer, dha→dicha, ſ→s, ç→c) y expansiones de los corchetes editoriales de Transkribus (`[...]` lectura confirmada, `[...¿?]` lectura dudosa).
+- Límite honesto: la transcripción no es una operación **neutral ni meramente técnica** — exige decisiones exegéticas rigurosas. Las grafías inestables (_rrenuncia_) y la ortografía variable (_Bernardino / Bernaldino_) quedan documentadas, no silenciadas.
+
+<div class="fuente">Minimal computing: herramientas abiertas de bajo costo, formato real portable y reproducible — coherente con las infraestructuras académicas de la región.</div>
+
+<aside class="notes">El ejemplo es real (depósito de deuda de Mariana de Ribera): muestra los apoyos de Transkribus, la expansión editorial y el paso del léxico al texto computable.</aside>
 
 ---
 
-## 8. Conclusiones
+## 5. El corpus en números
 
-- Leídas a contrapelo, se espera mostrar que las mujeres de la élite no solo participaron del sistema colonial, sino que **sostuvieron y reprodujeron** relaciones de dominación, negociando con la autoridad desde los márgenes.
-- Una **lectura relacional y a escala** del poder femenino, que la historiografía de casos aislados no ha producido.
-- La historia colonial en América del Sur puede recibir nuevas lecturas, porque no respuestas, sustentándose de la convergencia metodológica: **archivo + análisis de redes + Humanidades Digitales + microhistoria**.
+<div style="display: flex; justify-content: center; gap: 22px; margin-top: 6px;">
+  <div class="panel" style="text-align:center; min-width: 180px;"><h2 style="margin:0;">12</h2>documentos</div>
+  <div class="panel" style="text-align:center; min-width: 180px;"><h2 style="margin:0;">6.316</h2>párrafos</div>
+  <div class="panel" style="text-align:center; min-width: 180px;"><h2 style="margin:0;">23.823</h2>tokens</div>
+  <div class="panel" style="text-align:center; min-width: 180px;"><h2 style="margin:0;">6.941</h2>formas únicas</div>
+</div>
+
+<a href="images/fig_nube.png" data-lightbox="figs"><img class="fig" src="images/fig_nube.png" style="height: 320px;"></a>
+
+<div class="fuente">Nube de términos del corpus completo (sin stopwords normalizadas, palabras de más de 2 letras).</div>
+
+<aside class="notes">La nube ya anticipa dos hallazgos: la cadena de nominación (doña, María, Martel: los nombres propios dominan el corpus) y los polos temáticos: majestad, guerra, hijos, costa.</aside>
+
+---
+
+## 6. Frecuencias y cadenas de nominación
+
+<div class="cols">
+<div>
+<a href="images/fig_top20.png" data-lightbox="figs"><img class="fig" src="images/fig_top20.png" style="height: 350px;"></a>
+</div>
+<div>
+<p>Top 20: <b>martel (565)</b>, doña (259), maria (170), <b>testigo (169)</b>, licenciado (100), <b>pregunta (100)</b>, pesos (85), majestad (83), mujer (77), guerra (76)…</p>
+<p>Los <b>bigramas</b> confirman el molde documental: <i>doña María (136), María Martel (80), Mariana Ribera (70), licenciado Martel (36), queste testigo (35)</i>.</p>
+<p>La voz de las encomenderas rara vez habla "en propio": llega siempre <b>mediada por la fórmula notarial</b>.</p>
+</div>
+</div>
+
+<aside class="notes">La fórmula (doña + nombre, testigo, pregunta) es un hallazgo en sí misma: la voz de la mujer llega filtrada por la notaría. De ahí el título: voces veladas.</aside>
+
+---
+
+## 7. Tres perfiles léxicos de agencia
+
+<a href="images/fig_comparativa.png" data-lightbox="figs"><img class="fig" src="images/fig_comparativa.png" style="height: 360px;"></a>
+
+- **Mariana de Ribera (1577–1608)**: perfil notarial-financiero — _pago_ (7,5 por mil), _encomienda_, _cacique_, _pleito_.
+- **María Martel (1574)**: perfil probatorio — _servicio_ (0,9 por mil) en su información de oficio y parte.
+- **María Ramírez (1567)**: _indios_ (1,5 por mil) y _pago_ (1,0 por mil) — crédito y encomendados.
+
+<div class="fuente">Frecuencia por cada 1.000 palabras, normalizada para comparar documentos de distinto tamaño.</div>
+
+<aside class="notes">Un mismo léxico notarial registra la agencia femenina con acentos distintos: crédito (Ribera), mérito y servicio (Martel), encomendados (Ramírez). Es la evidencia para una lectura relacional del poder femenino.</aside>
+
+---
+
+## 8. La aritmética de las voces veladas
+
+| Tipo documental                                           | Párrafos | % con términos de conflicto |
+| --------------------------------------------------------- | -------: | --------------------------: |
+| Informaciones de oficio y parte (Martel)                  |   ~3.800 |                       0,2 % |
+| Información de oficio y parte (Ramírez)                   |   ~1.430 |                   0,3–0,4 % |
+| Cuaderno notarial (Ribera)                                |   ~1.046 |                   5,1–5,2 % |
+| Pago / Depósito / Obligación, documentos sueltos (Ribera) |       16 |                    50–100 % |
+
+- El escaso 1,2 % global de párrafos con conflicto **se concentra** en los géneros de crédito: ahí la encomendera aparece como fiadora, deudora y depositaria.
+- La casi ausencia de tensión en las informaciones también es dato: el mérito se narra en **fórmulas consagradas**.
+
+<aside class="notes">Un pago de 1577 es 100 % conflicto en su vocabulario: el conflicto no es anomalía, es un subgénero del archivo notarial comparado con el género probatorio.</aside>
+
+---
+
+## 9. Red de coocurrencias: la textura de la coerción
+
+<div class="cols">
+<div>
+<a href="images/fig_red.png" data-lightbox="figs"><img class="fig" src="images/fig_red.png" style="height: 400px;"></a>
+<div class="fuente">Coocurrencia párrafo a párrafo: pueblos originarios × términos de conflicto (NetworkX).</div>
+</div>
+<div>
+<p>Aristas dominantes:</p>
+<ul>
+  <li><b>negra ↔ depósito</b> (7) · <b>esclava ↔ depósito / demanda</b> (4)</li>
+  <li><b>pagar ↔ indios</b> (5) · <b>fiador ↔ indios</b> (3)</li>
+  <li><b>cacique ↔ fiador / pagar</b> (3)</li>
+</ul>
+<p>El eje central de la vida cotidiana de la encomienda: <b>personas esclavizadas y pueblos originarios atravesados por el crédito</b>; no aparece "violencia" en el léxico, aparece economía.</p>
+<p>Corresponde al <b>eje descendente</b> del anteproyecto: la "dimensión ascendente" (vínculos con pares de la élite, administración regia y local, justicia) la iluminará la red completa del corpus doctoral.</p>
+</div>
+</div>
+
+<aside class="notes">Red chica (11 nodos, 13 aristas) pero legible: la coerción no se nomina con palabras de violencia sino de transacción: pago, depósito, fiador. Eso es exactamente "voces veladas".</aside>
+
+---
+
+## 10. Conclusiones <span class="tiempo">⏱ 45 s</span>
+
+- Las encomenderas del XVI sostuvieron y reprodujeron relaciones de dominación **desde los márgenes legales**: el crédito, el depósito y la fianza —no la fórmula épica— son sus escenarios de agencia.
+- El **género documental media la agencia**: la detección de "conflicto" (de 1,2 % a 100 %) depende más del tipo de pieza que del actuar de las mujeres: el archivo disciplina lo decible.
+- Lo que se produce no es _data_ sino **capta** (Drucker): los diccionarios de arcaísmos y de tensión son también interpretación historiográfica y exigen crítica, no solo cómputo.
+- **Próximos pasos**: marcado **TEI-XML** (minimal computing: portabilidad y sostenibilidad) y redes completas (Gephi / Sigma.js) para escalar de 3 casos al corpus doctoral: más encomenderas, pleitos y testamentos. Historia digital, no solo historia _por_ medios digitales (Noiret).
+
+##### ¡Gracias! · [romideleon@gmail.com](romideleon@gmail.com)
+
+<div class="fuente">Deck: Reveal.js + Markdown · Cálculos: Python / pandas · Corpus: Transkribus (HTR) + transcripción y revisión manual.</div>
+
+<aside class="notes">Cierre conectado con las otras tres ponencias de la sesión: edición digital, manuscrito árabe y archivo fotográfico comparten la pregunta por qué se vuelve visible, y qué se hace callar, en el aparato documental.</aside>
