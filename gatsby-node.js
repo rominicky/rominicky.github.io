@@ -22,7 +22,6 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
       ) {
         edges {
           node {
-            id
             frontmatter {
               slug
             }
@@ -37,13 +36,13 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     }
   `);
 
-  // Manejo de errores
+  // Handle errors
   if (result.errors) {
-    reporter.panicOnBuild(`Error al ejecutar la consulta GraphQL en createPages.`);
+    reporter.panicOnBuild(`Error while running GraphQL query.`);
     return;
   }
 
-  // Crear páginas de posts
+  // Create post detail pages
   const posts = result.data.postsRemark.edges;
 
   posts.forEach(({ node }) => {
@@ -56,9 +55,9 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
     });
   });
 
-  // Crear páginas de etiquetas (tags)
+  // Extract tag data from query
   const tags = result.data.tagsGroup.group;
-
+  // Make tag pages
   tags.forEach(tag => {
     createPage({
       path: `/pensieve/tags/${_.kebabCase(tag.fieldValue)}/`,
@@ -70,8 +69,9 @@ exports.createPages = async ({ actions, graphql, reporter }) => {
   });
 };
 
-// Configuración de Webpack para módulos de terceros (SSR) y alias de rutas
+// https://www.gatsbyjs.org/docs/node-apis/#onCreateWebpackConfig
 exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
+  // https://www.gatsbyjs.org/docs/debugging-html-builds/#fixing-third-party-modules
   if (stage === 'build-html' || stage === 'develop-html') {
     actions.setWebpackConfig({
       module: {
@@ -108,8 +108,6 @@ exports.onCreateWebpackConfig = ({ stage, loaders, actions }) => {
     },
   });
 };
-
-// Esquema de GraphQL
 exports.createSchemaCustomization = ({ actions }) => {
   const { createTypes } = actions;
 
@@ -129,7 +127,6 @@ exports.createSchemaCustomization = ({ actions }) => {
       tech: [String]
       tags: [String]
       draft: Boolean
-      cover: File @fileByRelativePath
     }
   `);
 };
